@@ -1,0 +1,7145 @@
+{
+	"version": 5,
+	"id": "BMPC2vUH4fXk5bLR6",
+	"traits": [
+		{
+			"id": "TFizLw323isnpBKSa",
+			"name": "Attributes",
+			"container_type": "attributes",
+			"children": [
+				{
+					"id": "taNPzrk1R6tDBF1_d",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqha9GlDBU9P-Wg-6"
+					},
+					"name": "Increased Strength",
+					"reference": "B14",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mm0IwflYMD10F6lYn",
+							"name": "No Fine Manipulators",
+							"reference": "B15",
+							"cost_adj": "-40%",
+							"disabled": true
+						},
+						{
+							"id": "mlH5pD8P69is1WCww",
+							"name": "Size",
+							"reference": "B15",
+							"cost_adj": "-10%",
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "mw6o11mHN07qxqAIN",
+							"name": "Super-Effort",
+							"reference": "SU24",
+							"cost_adj": "300%",
+							"disabled": true
+						}
+					],
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "st",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 10,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tmVeEpkvZzLkZvUi7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tGWOSEE6SmBHACE6Y"
+					},
+					"name": "Increased Dexterity",
+					"reference": "B15",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "mtc43KMSucTLipCtv",
+							"name": "No Fine Manipulators",
+							"cost_adj": "-40%",
+							"disabled": true
+						}
+					],
+					"points_per_level": 20,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "dx",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 2,
+					"calc": {
+						"points": 40,
+						"current_level": 2
+					}
+				},
+				{
+					"id": "tT4H17klHo8gQlTdZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "t1w1RFcFceKR2T9_e"
+					},
+					"name": "Increased Intelligence",
+					"reference": "B15",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Mental"
+					],
+					"points_per_level": 20,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "iq",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 20,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "t_4VKcL_dW6c-8sj0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tVt3SvdGWNchJ8z4o"
+					},
+					"name": "Increased Health",
+					"reference": "B14",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "ht",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 10,
+						"current_level": 1
+					}
+				},
+				{
+					"id": "tqGYgMO0G8l64NR0q",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tWF1J_Z0Ziz-qJ6pn"
+					},
+					"name": "Increased Basic Speed",
+					"reference": "B17",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Physical"
+					],
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "basic_speed",
+							"amount": 0.25,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"levels": 1,
+					"calc": {
+						"points": 5,
+						"current_level": 1
+					}
+				}
+			],
+			"calc": {
+				"points": 85
+			}
+		},
+		{
+			"id": "TjI_dVWOlUJNNjXJz",
+			"name": "Advantages",
+			"children": [
+				{
+					"id": "TrMVLMuhI5FeGpc_O",
+					"name": "Pick 35 points worth",
+					"template_picker": {
+						"type": "points",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 35
+						}
+					},
+					"children": [
+						{
+							"id": "Tz6wCgA2uCtP1iht8",
+							"name": "Attributes",
+							"children": [
+								{
+									"id": "teI8as0I9cJS2Orw8",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tqha9GlDBU9P-Wg-6"
+									},
+									"name": "Increased Strength",
+									"reference": "B14",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mdhREkIvYgCdygCAU",
+											"name": "No Fine Manipulators",
+											"reference": "B15",
+											"cost_adj": "-40%",
+											"disabled": true
+										},
+										{
+											"id": "mZxvkxyDrc-OktoHF",
+											"name": "Size",
+											"reference": "B15",
+											"cost_adj": "-10%",
+											"levels": 1,
+											"disabled": true
+										},
+										{
+											"id": "m-j_m9YWU8REWydVc",
+											"name": "Super-Effort",
+											"reference": "SU24",
+											"cost_adj": "300%",
+											"disabled": true
+										}
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "st",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tLSeLmXHUrt_J4ulp",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tGWOSEE6SmBHACE6Y"
+									},
+									"name": "Increased Dexterity",
+									"reference": "B15",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mmQwNP_i5kjBmXAxo",
+											"name": "No Fine Manipulators",
+											"cost_adj": "-40%",
+											"disabled": true
+										}
+									],
+									"points_per_level": 20,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "dx",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 20,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tsi7NjYSccTMA6Bot",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t1w1RFcFceKR2T9_e"
+									},
+									"name": "Increased Intelligence",
+									"reference": "B15",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Mental"
+									],
+									"points_per_level": 20,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "iq",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 20,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tLFYwrfcmS5vJTNDq",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tVt3SvdGWNchJ8z4o"
+									},
+									"name": "Increased Health",
+									"reference": "B14",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 10,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "ht",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 10,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tlrrmL0s3XdrKzazP",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tmpxhXmSORakqvrbn"
+									},
+									"name": "Increased Perception",
+									"reference": "B16",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Mental",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "per",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tOyWKUlteH8-mfWmX",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tERWfEKV80M6toQn3"
+									},
+									"name": "Increased Will",
+									"reference": "B16",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Mental"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "will",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tr65fsBmadxmG9T5j",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tCgsJ0W9A8mHTtc-e"
+									},
+									"name": "Increased Basic Move",
+									"reference": "B17",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "basic_move",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "twVcVLRcVQ_SUQF7c",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tWF1J_Z0Ziz-qJ6pn"
+									},
+									"name": "Increased Basic Speed",
+									"reference": "B17",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "basic_speed",
+											"amount": 0.25,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tNRNu4ZDp2Qr_IGjh",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tsIfS0jZqdshsDFOM"
+									},
+									"name": "Extra Fatigue Points",
+									"reference": "B16",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"points_per_level": 3,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "fp",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 3,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tTwOrsTq053MJT9Xe",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tWoMSz-IMAxDJo8rh"
+									},
+									"name": "Extra Hit Points",
+									"reference": "B16",
+									"tags": [
+										"Advantage",
+										"Attribute",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "mLkfaI_M971QO1aR3",
+											"name": "Size",
+											"cost_adj": "-10%",
+											"levels": 1,
+											"disabled": true
+										}
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "hp",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								}
+							],
+							"calc": {
+								"points": 85
+							}
+						},
+						{
+							"id": "T3cHt5ITJezASBDJ8",
+							"name": "Acute Senses",
+							"children": [
+								{
+									"id": "tuldnQirVn2QBsYue",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t6XtSYhM7yan5_B73"
+									},
+									"name": "Acute Hearing",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "hearing",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tK8x6xTMZHKB8lPqO",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tAZ31tXG_HzDmVCRp"
+									},
+									"name": "Acute Taste \u0026 Smell",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "taste_smell",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tRm5gE9LiCC2fdGC_",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tQmX3PWAYpT2gKZym"
+									},
+									"name": "Acute Touch",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "touch",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tgYtURWEPC_vvuTHW",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tkdGzhkqoMAQbknEc"
+									},
+									"name": "Acute Vision",
+									"reference": "B35",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"points_per_level": 2,
+									"features": [
+										{
+											"type": "attribute_bonus",
+											"attribute": "vision",
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 2,
+										"current_level": 1
+									}
+								}
+							],
+							"calc": {
+								"points": 8
+							}
+						},
+						{
+							"id": "TEmus0fYtFmoJJxv5",
+							"name": "Campaign Specific",
+							"children": [
+								{
+									"id": "t4MJtfKUDO_FH2A-k",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tu3GuYC47Sx6bnm4k"
+									},
+									"name": "G-Experience",
+									"reference": "B57",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"points_per_level": 1,
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 1,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "twVPus9Nn46Lq9OL_",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "txREhxV6L1SKixwe_"
+									},
+									"name": "Improved G-tolerance",
+									"reference": "B60",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"modifiers": [
+										{
+											"id": "met9ZoX3czzaDrCiK",
+											"name": "0.3G",
+											"reference": "B60",
+											"cost_adj": "5",
+											"disabled": true
+										},
+										{
+											"id": "m8pGnrqMpP1d85hg-",
+											"name": "0.5G",
+											"reference": "B60",
+											"cost_adj": "10",
+											"disabled": true
+										},
+										{
+											"id": "muofsbIPYZCcGP3zm",
+											"name": "1G",
+											"reference": "B60",
+											"cost_adj": "15",
+											"disabled": true
+										},
+										{
+											"id": "my9pNPsljI4ruKvq1",
+											"name": "5G",
+											"reference": "B60",
+											"cost_adj": "20",
+											"disabled": true
+										},
+										{
+											"id": "mIQfUkZL3sPO7Lloj",
+											"name": "10G",
+											"reference": "B60",
+											"cost_adj": "25",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tWaP6_3APxlkag20l",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tmp8yecgaZq9TOk59"
+									},
+									"name": "@Type@ Rank",
+									"reference": "B29",
+									"tags": [
+										"Advantage",
+										"Social"
+									],
+									"modifiers": [
+										{
+											"id": "mac8R-XUVeifkrsCa",
+											"name": "Replaces Status",
+											"reference": "B29",
+											"cost_adj": "5",
+											"affects": "levels_only",
+											"disabled": true
+										},
+										{
+											"id": "muahiAqO9OTRHX84E",
+											"name": "Courtesy",
+											"reference": "B29",
+											"cost_adj": "-4",
+											"affects": "levels_only",
+											"disabled": true
+										}
+									],
+									"points_per_level": 5,
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								},
+								{
+									"id": "tIplbSa7dn_kd_Tk0",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t6Nq6oInwkU1qbAP1"
+									},
+									"name": "Patron",
+									"reference": "B72,P65",
+									"tags": [
+										"Advantage",
+										"Social"
+									],
+									"modifiers": [
+										{
+											"id": "MWWOYrvRCN8Ev5-TX",
+											"name": "Power",
+											"children": [
+												{
+													"id": "mOLHBmfWDWKvv1FXZ",
+													"name": "@Who: Individual with 150% of PC's starting points@",
+													"reference": "B72",
+													"cost_adj": "10",
+													"disabled": true
+												},
+												{
+													"id": "mG7621kZZgc5mfqNJ",
+													"name": "@Who: Organization with assets of at least 1000 times starting wealth@",
+													"reference": "B72",
+													"cost_adj": "10",
+													"disabled": true
+												},
+												{
+													"id": "mw6ExoYoztmihXUK6",
+													"name": "@Who: Individual with twice the PC's starting points@",
+													"reference": "B72",
+													"cost_adj": "15",
+													"disabled": true
+												},
+												{
+													"id": "mYUpUnx_0Egke_6Z6",
+													"name": "@Who: Organization with assets of at least 10000 times starting wealth@",
+													"reference": "B72",
+													"cost_adj": "15",
+													"disabled": true
+												},
+												{
+													"id": "mZ0oeJCjo9T92hqZX",
+													"name": "@Who: An ultra-powerful individual@",
+													"reference": "B72",
+													"cost_adj": "20",
+													"disabled": true
+												},
+												{
+													"id": "mG0nagPLTzG58nhd8",
+													"name": "@Who: Organization with assets of at least 100000 times starting wealth@",
+													"reference": "B72",
+													"cost_adj": "20",
+													"disabled": true
+												},
+												{
+													"id": "megb96PaCSpn4w9rE",
+													"name": "@Who: Organization with assets of at least 1000000 times starting wealth@",
+													"reference": "B72",
+													"cost_adj": "25",
+													"disabled": true
+												},
+												{
+													"id": "mAbNibSWQ2EF18e3F",
+													"name": "@Who: A national government or giant multi-national organization@",
+													"reference": "B72",
+													"cost_adj": "30",
+													"disabled": true
+												},
+												{
+													"id": "mMHyTS9JTWl_MdzHK",
+													"name": "@Who: A deity@",
+													"reference": "B72",
+													"cost_adj": "30",
+													"disabled": true
+												}
+											]
+										},
+										{
+											"id": "MQq6TKJ_M5tGtB2ne",
+											"name": "Frequency of Appearance",
+											"children": [
+												{
+													"id": "mOBi_7aGRNco_z6BO",
+													"name": "Appears quite rarely",
+													"reference": "B36",
+													"local_notes": "6-",
+													"cost_adj": "x0.5",
+													"disabled": true
+												},
+												{
+													"id": "mpMJykyY3jG2jgxkl",
+													"name": "Appears fairly often",
+													"reference": "B36",
+													"local_notes": "9-",
+													"cost_adj": "x1",
+													"disabled": true
+												},
+												{
+													"id": "m5MWsaiz2GVSS_g2g",
+													"name": "Appears quite often",
+													"reference": "B36",
+													"local_notes": "12-",
+													"cost_adj": "x2",
+													"disabled": true
+												},
+												{
+													"id": "mHU6djqOuXI8PDfmZ",
+													"name": "Appears almost all the time",
+													"reference": "B36",
+													"local_notes": "15-",
+													"cost_adj": "x3",
+													"disabled": true
+												}
+											]
+										},
+										{
+											"id": "mPtWa4BNm7hw6LR7t",
+											"name": "Equipment",
+											"reference": "B73",
+											"local_notes": "@Equipment worth no more than average starting wealth@",
+											"cost_adj": "50%",
+											"disabled": true
+										},
+										{
+											"id": "mteJo0tvUUrZdgRn9",
+											"name": "Equipment",
+											"reference": "B73",
+											"local_notes": "@Equipment worth more than average starting wealth@",
+											"cost_adj": "100%",
+											"disabled": true
+										},
+										{
+											"id": "m3qG5O2b4M99yosTN",
+											"name": "Highly Accessible",
+											"reference": "B73",
+											"cost_adj": "50%",
+											"disabled": true
+										},
+										{
+											"id": "m_C6uZJDvyYB7Ecyd",
+											"name": "Special Abilities",
+											"reference": "B73",
+											"local_notes": "@Extensive social or political power@",
+											"cost_adj": "50%",
+											"disabled": true
+										},
+										{
+											"id": "mb3tWR3BrmV30Y1oo",
+											"name": "Special Abilities",
+											"reference": "B73",
+											"local_notes": "@Magical powers in a non-magical world, higher TL equipment, grants special powers or is supernatural@",
+											"cost_adj": "100%",
+											"disabled": true
+										},
+										{
+											"id": "mdghfyX7mrYJeGdy8",
+											"name": "Minimal Interventions",
+											"reference": "B73",
+											"cost_adj": "-50%",
+											"disabled": true
+										},
+										{
+											"id": "mCOUw-0PgUM8r4e8u",
+											"name": "Secret",
+											"reference": "B73",
+											"cost_adj": "-50%",
+											"disabled": true
+										},
+										{
+											"id": "msVLrXpfr0yp92hzZ",
+											"name": "Unwilling",
+											"reference": "B74",
+											"cost_adj": "-50%",
+											"disabled": true
+										},
+										{
+											"id": "mX7TyDqyE2UGXKa5f",
+											"name": "Favor",
+											"reference": "B55",
+											"cost_adj": "x0.2",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tgbIe4szM1Hz7gPcZ",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tJTfFdHM7YI5IZR7I"
+									},
+									"name": "Resistant",
+									"reference": "B81,P71,MA47",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"replacements": {
+										"Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.": "Space sickness"
+									},
+									"modifiers": [
+										{
+											"id": "m-q_fNrFoPk8wRqu5",
+											"name": "@Very Common: Metabolic Hazards, etc.@",
+											"reference": "B80",
+											"cost_adj": "30",
+											"disabled": true
+										},
+										{
+											"id": "mS9fNHXo91fstvpgf",
+											"name": "@Common: Poison, Sickness, etc.@",
+											"reference": "B81",
+											"cost_adj": "15",
+											"disabled": true
+										},
+										{
+											"id": "mA62Z9jkenowpmUkl",
+											"name": "@Occasional: Disease, Ingested Poison, etc.@",
+											"reference": "B81",
+											"cost_adj": "10",
+											"disabled": true
+										},
+										{
+											"id": "mi0CfhLWXP-cv4PBU",
+											"name": "@Rare: Acceleration, Altitude Sickness, Bends, Seasickness, Space Sickness, Nanomachines, etc.@",
+											"reference": "B81",
+											"cost_adj": "5"
+										},
+										{
+											"id": "mRChX_GM5FewW3tOe",
+											"name": "Immunity",
+											"reference": "B81",
+											"cost_adj": "x1"
+										},
+										{
+											"id": "m3rqo1AjQ0r_1nsKI",
+											"name": "+8 to all HT rolls to resist",
+											"reference": "B81",
+											"cost_adj": "x0.5",
+											"disabled": true
+										},
+										{
+											"id": "mczlyowiz8O7t0ibf",
+											"name": "+3 to all HT rolls to resist",
+											"reference": "B81",
+											"cost_adj": "x0.33",
+											"disabled": true
+										}
+									],
+									"round_down": true,
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tYzgkSqEi3BN0YWP_",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tcC_zioiE8t5DFNZE"
+									},
+									"name": "Security Clearance",
+									"reference": "B82",
+									"tags": [
+										"Advantage",
+										"Social"
+									],
+									"modifiers": [
+										{
+											"id": "mKpwvaj4E4qcmvEfp",
+											"name": "Narrow Clearance on a \"Need to Know\" Basis",
+											"reference": "B82",
+											"local_notes": "@What@",
+											"cost_adj": "5",
+											"disabled": true
+										},
+										{
+											"id": "mnbjhyktLuHhVd3s2",
+											"name": "Narrow Clearance with Free Access",
+											"reference": "B82",
+											"local_notes": "@What@",
+											"cost_adj": "10",
+											"disabled": true
+										},
+										{
+											"id": "m0CWEIUSH49YpLK64",
+											"name": "Broad Clearance on a \"Need to Know\" Basis",
+											"reference": "B82",
+											"local_notes": "@What@",
+											"cost_adj": "10",
+											"disabled": true
+										},
+										{
+											"id": "mRPkwkwSiY5hVHNlL",
+											"name": "Broad Clearance with Free Access",
+											"reference": "B82",
+											"local_notes": "@What@",
+											"cost_adj": "15",
+											"disabled": true
+										},
+										{
+											"id": "mU_Lz4NGaaUFh6e-q",
+											"name": "Minor Importance",
+											"reference": "B83",
+											"cost_adj": "x0.5",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tmOC6Y1p2pU0MpcWY",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Power Ups/Power Ups Traits.adq",
+										"id": "t3msobZZ06J7dZ8xu"
+									},
+									"name": "Talent (Born Spacer)",
+									"reference": "PU3:7",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Talent"
+									],
+									"modifiers": [
+										{
+											"id": "mSeA6tm2MebKf1OyS",
+											"name": "Alternative Cost",
+											"cost_adj": "1",
+											"affects": "levels_only",
+											"disabled": true
+										},
+										{
+											"id": "MJlDGdYmlXwgEe1Ul",
+											"name": "Benefits",
+											"children": [
+												{
+													"id": "miRoXsDugFHg0fHx9",
+													"name": "Reaction Bonus",
+													"use_level_from_trait": true,
+													"features": [
+														{
+															"type": "reaction_bonus",
+															"situation": "From professional Spacers.",
+															"amount": 1,
+															"per_level": true
+														}
+													]
+												},
+												{
+													"id": "mqCKiOOC2aE1qkYzj",
+													"name": "Bonus to pushing off",
+													"reference": "BX350",
+													"reference_highlight": "ST/2",
+													"use_level_from_trait": true,
+													"features": [
+														{
+															"type": "conditional_modifier",
+															"situation": "Bonus to ST for zero G push off",
+															"amount": 1,
+															"per_level": true
+														}
+													],
+													"disabled": true
+												},
+												{
+													"id": "myoSL-EcvTlCasRSX",
+													"name": "Spacecraft Familiarity",
+													"use_level_from_trait": true,
+													"features": [
+														{
+															"type": "conditional_modifier",
+															"situation": "Counteracts Familiarity for spacecraft.",
+															"amount": 1
+														}
+													],
+													"disabled": true
+												}
+											]
+										}
+									],
+									"points_per_level": 5,
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Aerobatics"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Free Fall"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Navigation"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "Space"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Piloting"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "High-Performance Spacecraft"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Piloting"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "Low-Performance Spacecraft"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Piloting"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "Aerospace"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Spacer"
+											},
+											"amount": 1,
+											"per_level": true
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "Vacc Suit"
+											},
+											"amount": 1,
+											"per_level": true
+										}
+									],
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 5,
+										"current_level": 1
+									}
+								}
+							],
+							"calc": {
+								"points": 16
+							}
+						},
+						{
+							"id": "Tx2O53L7du9qtGgI8",
+							"name": "Cinematic",
+							"children": [
+								{
+									"id": "tgworcVPZf6Fdy1wg",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t5D4nXKgejnaua22T"
+									},
+									"name": "Cultural Adaptability",
+									"reference": "B46",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mVuDi4-1IAs3548sk",
+											"name": "Xeno",
+											"cost_adj": "10",
+											"disabled": true
+										}
+									],
+									"base_points": 10,
+									"calc": {
+										"points": 10
+									}
+								},
+								{
+									"id": "tAGwCEXY-AL1lVel8",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tg6F-Wf29f6BFE1oD"
+									},
+									"name": "Wild Talent",
+									"reference": "B99,P89,MA49",
+									"tags": [
+										"Advantage",
+										"Mental",
+										"Supernatural"
+									],
+									"modifiers": [
+										{
+											"id": "mjfW0gToXjafHIpEA",
+											"name": "Retention",
+											"reference": "B99",
+											"cost_adj": "25%",
+											"disabled": true
+										},
+										{
+											"id": "mfpTdIqKTnJWL4gtb",
+											"name": "Emergencies Only",
+											"reference": "B100",
+											"cost_adj": "-30%",
+											"disabled": true
+										},
+										{
+											"id": "mrZd5KVXpZhj3cZJU",
+											"name": "Focused",
+											"reference": "B99",
+											"local_notes": "@Type: Mental, Physical, Magical or Chi@",
+											"cost_adj": "-20%",
+											"disabled": true
+										},
+										{
+											"id": "mdu7wR5PuvswWZuAP",
+											"name": "Wild Ability",
+											"reference": "P90",
+											"cost_adj": "50%",
+											"disabled": true
+										},
+										{
+											"id": "mpGp-tvQ1WJu95fEC",
+											"name": "External",
+											"reference": "P90",
+											"cost_adj": "-20%",
+											"disabled": true
+										},
+										{
+											"id": "mXSwY3kxHNjBRoRBW",
+											"name": "No Advantage Requirements",
+											"reference": "DF4:8",
+											"cost_adj": "50%",
+											"disabled": true
+										},
+										{
+											"id": "mfSkNvCEL3JEhQH52",
+											"name": "Game Time",
+											"reference": "P108",
+											"local_notes": "Uses per game week equal to its maximum possible uses per session",
+											"disabled": true
+										}
+									],
+									"points_per_level": 20,
+									"can_level": true,
+									"levels": 1,
+									"calc": {
+										"points": 20,
+										"current_level": 1
+									}
+								}
+							],
+							"calc": {
+								"points": 30
+							}
+						},
+						{
+							"id": "ty2HuYVQ1Qv7YCvBV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tM6z7Mx6e2V4VvUR4"
+							},
+							"name": "Absolute Direction",
+							"reference": "B34",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mk0kmaS3DojfhE3yo",
+									"name": "Requires signal",
+									"reference": "B34",
+									"cost_adj": "-20%",
+									"disabled": true
+								},
+								{
+									"id": "mWDoilje1MSP7txpc",
+									"name": "3D Spatial Sense",
+									"reference": "B34",
+									"cost_adj": "5",
+									"features": [
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "starts_with",
+												"qualifier": "piloting"
+											},
+											"amount": 1
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "aerobatics"
+											},
+											"amount": 2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "free fall"
+											},
+											"amount": 2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "navigation"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "hyperspace"
+											},
+											"amount": 2
+										},
+										{
+											"type": "skill_bonus",
+											"selection_type": "skills_with_name",
+											"name": {
+												"compare": "is",
+												"qualifier": "navigation"
+											},
+											"specialization": {
+												"compare": "is",
+												"qualifier": "space"
+											},
+											"amount": 2
+										}
+									],
+									"disabled": true
+								}
+							],
+							"base_points": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "body sense"
+									},
+									"amount": 3
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "air"
+									},
+									"amount": 3
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "land"
+									},
+									"amount": 3
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "sea"
+									},
+									"amount": 3
+								}
+							],
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "t2EBOK5Gfs-PDahD6",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t59wSfU9kpC1rus5P"
+							},
+							"name": "Alcohol Tolerance",
+							"reference": "B100",
+							"tags": [
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "on all HT rolls related to drinking",
+									"amount": 2
+								}
+							],
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "thvmVGpTkrWD-_iZR",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tE_Ykx9nKvsgBGb6L"
+							},
+							"name": "Ambidexterity",
+							"reference": "B39",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"base_points": 5,
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "tzMUjyV1_-iET-e47",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tMMQWflrKUPOkyIF9"
+							},
+							"name": "Charisma",
+							"reference": "B41",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "fortune-telling"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "leadership"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "panhandling"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "public speaking"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "from sapient being with whom you actively interact (converse, lecture, etc.)",
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "to Influence rolls",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 5,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "tKy5qOBhVeQ0Z05OO",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tGjjVtxav9KsrG7Wx"
+							},
+							"name": "Combat Reflexes",
+							"reference": "B43",
+							"local_notes": "Never freeze",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "Enhanced Time Sense"
+										}
+									}
+								]
+							},
+							"base_points": 15,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "starts_with",
+										"qualifier": "fast-draw"
+									},
+									"amount": 1
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "dodge",
+									"amount": 1
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "parry",
+									"amount": 1
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "block",
+									"amount": 1
+								},
+								{
+									"type": "attribute_bonus",
+									"attribute": "fright_check",
+									"amount": 2
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "on all IQ rolls to wake up or to recover from surprise or mental stun",
+									"amount": 6
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "to initiative rolls for your side (+2 if you are the leader)",
+									"amount": 1
+								}
+							],
+							"calc": {
+								"points": 15
+							}
+						},
+						{
+							"id": "tfbjDSwiGmG2LVS1D",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tgjE-yMzESTjq695x"
+							},
+							"name": "Danger Sense",
+							"reference": "B47,P46",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 15
+							}
+						},
+						{
+							"id": "tzAYCuYnu9hTKauTB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tQa3EUrs4Hjt9gxK6"
+							},
+							"name": "Fearlessness",
+							"reference": "B55,MA44",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "Fearfulness"
+										}
+									}
+								]
+							},
+							"points_per_level": 2,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "fright_check",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 2,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "TNWHownzA-KIx4ej6",
+							"name": "One of",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": 1
+								}
+							},
+							"children": [
+								{
+									"id": "tTL_bW6Xd5MTIDdJM",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "toTe273Ky82B6YdW5"
+									},
+									"name": "Fit",
+									"reference": "B55",
+									"local_notes": "Recover FP at twice the normal rate (but not FP spent for spells or psi powers)",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"base_points": 5,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "to all HT rolls to stay conscious, avoid death, resist disease, or resist poison",
+											"amount": 1
+										}
+									],
+									"calc": {
+										"points": 5
+									}
+								},
+								{
+									"id": "tVT9_ugZWH8Dp81Uz",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tOQfp3YosDgO4S3yI"
+									},
+									"name": "Very Fit",
+									"reference": "B55",
+									"local_notes": "Recover FP at twice the normal rate; lose FP at half the normal rate (in both cases, not FP spent for spells or psi powers)",
+									"tags": [
+										"Advantage",
+										"Physical"
+									],
+									"base_points": 15,
+									"features": [
+										{
+											"type": "conditional_modifier",
+											"situation": "to all HT rolls to stay conscious, avoid death, resist disease, resist poison",
+											"amount": 2
+										}
+									],
+									"calc": {
+										"points": 15
+									}
+								}
+							],
+							"calc": {
+								"points": 20
+							}
+						},
+						{
+							"id": "t-2uJV2bcFgGViNow",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "teRggYn926_I1YeWO"
+							},
+							"name": "High Pain Threshold",
+							"reference": "B59",
+							"local_notes": "Never suffer shock penalties when injured",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"base_points": 10,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "on all HT rolls to avoid knockdown and stunning",
+									"amount": 3
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "to resist torture",
+									"amount": 3
+								}
+							],
+							"calc": {
+								"points": 10
+							}
+						},
+						{
+							"id": "tgqARHP-CzCbLUBzy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tS3_80lkCglkZ8nAl"
+							},
+							"name": "Intuition",
+							"reference": "B63,P56",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "m490npoN1MINBK-8v",
+									"name": "Inspired",
+									"reference": "P56",
+									"cost_adj": "100%",
+									"disabled": true
+								}
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 15
+							}
+						},
+						{
+							"id": "tvS5nm0myJ7GWf8r3",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tw1Ad0oSMw2ATM4X1"
+							},
+							"name": "Language: @Language@",
+							"reference": "B24",
+							"tags": [
+								"Advantage",
+								"Language",
+								"Mental"
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "Language Talent"
+										},
+										"level": {
+											"compare": "at_least"
+										}
+									}
+								]
+							},
+							"modifiers": [
+								{
+									"id": "mTmxGsaw08o3N8MMu",
+									"name": "Native",
+									"reference": "B23",
+									"cost_adj": "-6",
+									"disabled": true
+								},
+								{
+									"id": "m3WWPf8BxUwe3sr99",
+									"name": "Spoken",
+									"reference": "B24",
+									"local_notes": "None",
+									"disabled": true
+								},
+								{
+									"id": "mU9K9707oZez9gQUi",
+									"name": "Spoken",
+									"reference": "B24",
+									"local_notes": "Broken",
+									"cost_adj": "1",
+									"disabled": true
+								},
+								{
+									"id": "m4IvY6eBE3cg7yHLK",
+									"name": "Spoken",
+									"reference": "B24",
+									"local_notes": "Accented",
+									"cost_adj": "2"
+								},
+								{
+									"id": "mqd1VPaqzop5zS0Le",
+									"name": "Spoken",
+									"reference": "B24",
+									"local_notes": "Native",
+									"cost_adj": "3",
+									"disabled": true
+								},
+								{
+									"id": "mpS-AqByetO9Cg0nk",
+									"name": "Written",
+									"reference": "B24",
+									"local_notes": "None",
+									"disabled": true
+								},
+								{
+									"id": "mfXCtjCuUUkqXsXBo",
+									"name": "Written",
+									"reference": "B24",
+									"local_notes": "Broken",
+									"cost_adj": "1",
+									"disabled": true
+								},
+								{
+									"id": "mgwL9rXu5nIZbWaIS",
+									"name": "Written",
+									"reference": "B24",
+									"local_notes": "Accented",
+									"cost_adj": "2"
+								},
+								{
+									"id": "mxo6btYYgEqj015sq",
+									"name": "Written",
+									"reference": "B24",
+									"local_notes": "Native",
+									"cost_adj": "3",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": 4
+							}
+						},
+						{
+							"id": "tsQnphDPpsS2y81_P",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t6krAE1uo6M0oDJFL"
+							},
+							"name": "Lifting ST",
+							"reference": "B65,P58",
+							"tags": [
+								"Advantage",
+								"Exotic",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mdYUlNaLL4awHHHAa",
+									"name": "No Fine Manipulators",
+									"reference": "B15",
+									"cost_adj": "-40%",
+									"disabled": true
+								},
+								{
+									"id": "mutRCIOmOgX__UNxW",
+									"name": "Size",
+									"reference": "B15",
+									"cost_adj": "-10%",
+									"levels": 1,
+									"disabled": true
+								},
+								{
+									"id": "mwH6cIIlmU48zxSZz",
+									"name": "Super-Effort",
+									"reference": "P58",
+									"cost_adj": "400%",
+									"disabled": true
+								},
+								{
+									"id": "mSaxq1mbUa_CY9b9H",
+									"name": "Know Your Own Strength Variant Price",
+									"reference": "PY83:18",
+									"cost_adj": "4",
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "myPdvqllmmIv_zfL9",
+									"name": "@Limb@ Grip ST",
+									"reference": "MATG28",
+									"cost_adj": "-70%",
+									"disabled": true
+								},
+								{
+									"id": "muyaocnd6l2SrRU33",
+									"name": "Bite ST",
+									"reference": "MATG28",
+									"cost_adj": "-70%",
+									"disabled": true
+								}
+							],
+							"points_per_level": 3,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"limitation": "lifting_only",
+									"attribute": "st",
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 3,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "Tb5YCzgx4Ef4rwpuR",
+							"name": "One of",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": 1
+								}
+							},
+							"children": [
+								{
+									"id": "t5bvv8Ltv23e7o21j",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tz-USDL9B_KrrVqDi"
+									},
+									"name": "Luck",
+									"reference": "B66,P59",
+									"local_notes": "Usable once per hour of play",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "mPDCWpwdqtcTafAFx",
+											"name": "Active",
+											"reference": "B66",
+											"cost_adj": "-40%",
+											"disabled": true
+										},
+										{
+											"id": "mnt4yKdWVvSZZoQKT",
+											"name": "Aspected",
+											"reference": "B66",
+											"local_notes": "@Aspect@",
+											"cost_adj": "-20%",
+											"disabled": true
+										},
+										{
+											"id": "mJDQu9BBD9xNGScKT",
+											"name": "Defensive",
+											"reference": "B66",
+											"cost_adj": "-20%",
+											"disabled": true
+										},
+										{
+											"id": "mcCsvcrX_ABgKx3-z",
+											"name": "Wishing",
+											"reference": "P59",
+											"cost_adj": "100%",
+											"disabled": true
+										},
+										{
+											"id": "mLe7uXHVoUxKbTHC_",
+											"name": "Game Time",
+											"reference": "P108",
+											"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
+											"disabled": true
+										}
+									],
+									"base_points": 15,
+									"calc": {
+										"points": 15
+									}
+								},
+								{
+									"id": "ta4rnVssnuHnaSU7J",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tpqxCsRu8W1w0NZPS"
+									},
+									"name": "Extraordinary Luck",
+									"reference": "B66",
+									"local_notes": "Usable once per 30 minutes of play",
+									"tags": [
+										"Advantage",
+										"Mental"
+									],
+									"modifiers": [
+										{
+											"id": "ms70QZ-pj9yDRfBIM",
+											"name": "Active",
+											"reference": "B66",
+											"cost_adj": "-40%",
+											"disabled": true
+										},
+										{
+											"id": "m7pmmvtx6E36blDeA",
+											"name": "Aspected",
+											"reference": "B66",
+											"local_notes": "@Aspect@",
+											"cost_adj": "-20%",
+											"disabled": true
+										},
+										{
+											"id": "mh9ZX7NKlxC9kJYhZ",
+											"name": "Defensive",
+											"reference": "B66",
+											"cost_adj": "-20%",
+											"disabled": true
+										},
+										{
+											"id": "m5zSf_akSWjEQxezM",
+											"name": "Wishing",
+											"reference": "P59",
+											"cost_adj": "100%",
+											"disabled": true
+										},
+										{
+											"id": "mW-vk371CAK1mN0hw",
+											"name": "Game Time",
+											"reference": "P108",
+											"local_notes": "Uses per game day equal to its maximum possible uses per real hour",
+											"disabled": true
+										}
+									],
+									"base_points": 30,
+									"calc": {
+										"points": 30
+									}
+								}
+							],
+							"calc": {
+								"points": 45
+							}
+						},
+						{
+							"id": "t-2JHuR4aXmldI5bW",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tk0ZKpvgqpE35AZcM"
+							},
+							"name": "Night Vision",
+							"reference": "B71,P87",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"points_per_level": 1,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 1,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "t_T2KqBdyXjC7w60M",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tHRgrj_fBsqwVk5Gh"
+							},
+							"name": "Penetrating Voice",
+							"reference": "B101",
+							"tags": [
+								"Perk",
+								"Physical"
+							],
+							"base_points": 1,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to others' Hearing roll in siturations where you want to be heard over noise",
+									"amount": 3
+								}
+							],
+							"calc": {
+								"points": 1
+							}
+						},
+						{
+							"id": "tc4lCBlkgNW-NhC9n",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "trMfToThYl9fEmPdt"
+							},
+							"name": "Rapid Healing",
+							"reference": "B79",
+							"tags": [
+								"Advantage",
+								"Physical"
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "attribute_prereq",
+										"has": true,
+										"qualifier": {
+											"compare": "at_least",
+											"qualifier": 10
+										},
+										"which": "ht"
+									}
+								]
+							},
+							"base_points": 5,
+							"features": [
+								{
+									"type": "conditional_modifier",
+									"situation": "to your effective HT whenever you roll to recover lost HP or to see if you can get over a crippling injury",
+									"amount": 5
+								}
+							],
+							"calc": {
+								"points": 5
+							}
+						},
+						{
+							"id": "tdhEhXFy1IWOLV-xo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tkiJQ7nfyi9aAdGHK"
+							},
+							"name": "Serendipity",
+							"reference": "B83,P73",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "m5zPPYVoygPp6b7KD",
+									"name": "Wishing",
+									"reference": "P73",
+									"cost_adj": "100%",
+									"disabled": true
+								},
+								{
+									"id": "m95QEM_MRbbapILSX",
+									"name": "Wishing",
+									"reference": "P73",
+									"local_notes": "For others only",
+									"disabled": true
+								},
+								{
+									"id": "m-gfxxYQWOVzHAr76",
+									"name": "Game Time",
+									"reference": "P108",
+									"local_notes": "Uses per game week equal to its maximum possible uses per session",
+									"disabled": true
+								}
+							],
+							"points_per_level": 15,
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 15,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "tr8TsiuUC7zURKiQ8",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups Traits.adq",
+								"id": "tGlco-AZ990r0tW6g"
+							},
+							"name": "Talent (Born Soldier)",
+							"reference": "PU3:12",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Talent"
+							],
+							"modifiers": [
+								{
+									"id": "MeRV2bVKMsneRDP_P",
+									"name": "Benefits",
+									"children": [
+										{
+											"id": "mAkux7BknQNMqYo_p",
+											"name": "Reaction Bonus",
+											"use_level_from_trait": true,
+											"features": [
+												{
+													"type": "reaction_bonus",
+													"situation": "From those you serve with or command.",
+													"amount": 1,
+													"per_level": true
+												}
+											]
+										},
+										{
+											"id": "m3zASHdXFqBP5YlX_",
+											"name": "Alternative Benefit",
+											"use_level_from_trait": true,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "Reduce chance of impersonal battlefield hazards",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"disabled": true
+										}
+									]
+								}
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Leadership"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Savoir-Faire"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "Military"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Scrounging"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Soldier"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Tactics"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 5,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "tE0xz8pmvgvAdkcAe",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups Traits.adq",
+								"id": "tid509JL7hbPsfYw0"
+							},
+							"name": "Talent (Born Tactician)",
+							"reference": "PU3:12",
+							"tags": [
+								"Advantage",
+								"Mental",
+								"Talent"
+							],
+							"modifiers": [
+								{
+									"id": "mYmiOVttddZrl3JGE",
+									"name": "Alternative Cost",
+									"cost_adj": "-2",
+									"affects": "levels_only",
+									"disabled": true
+								},
+								{
+									"id": "Me_HeI3uAPvvg_lUT",
+									"name": "Benefits",
+									"children": [
+										{
+											"id": "mNjVc1wyFzHvLG7fi",
+											"name": "Reaction Bonus",
+											"use_level_from_trait": true,
+											"features": [
+												{
+													"type": "reaction_bonus",
+													"situation": "From anyone you serve with or command.",
+													"amount": 1,
+													"per_level": true
+												}
+											]
+										},
+										{
+											"id": "m-etm7kRGRqUMzygw",
+											"name": "Alternative Benefit",
+											"use_level_from_trait": true,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "Bonus to initiative rolls if leader",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"disabled": true
+										}
+									]
+								}
+							],
+							"points_per_level": 10,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "History"
+									},
+									"specialization": {
+										"compare": "contains",
+										"qualifier": "Military"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Intelligence Analysis"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Leadership"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Savoir-Faire"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "Military"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Soldier"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Strategy"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Tactics"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Expert Skill"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "Military Science"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 10,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "tsdJIv4-acuCQVf80",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Power Ups/Power Ups Traits.adq",
+								"id": "tgnQFo-hK7YwexD2S"
+							},
+							"name": "Talent (Born War-Leader)",
+							"reference": "DF1:14,PU3:12",
+							"tags": [
+								"Advantage",
+								"Physical",
+								"Talent"
+							],
+							"modifiers": [
+								{
+									"id": "M5oXGX-kpGvQYfThA",
+									"name": "Benefits",
+									"children": [
+										{
+											"id": "mVp0ix9_8mbn6KlYY",
+											"name": "Reaction Bonus",
+											"use_level_from_trait": true,
+											"features": [
+												{
+													"type": "reaction_bonus",
+													"situation": "From military officers, tribal war-leaders, soldiers, and other professional warriors.",
+													"amount": 1,
+													"per_level": true
+												}
+											]
+										},
+										{
+											"id": "m__ENoOgWU07G1m1y",
+											"name": "Alternative Benefit",
+											"use_level_from_trait": true,
+											"features": [
+												{
+													"type": "conditional_modifier",
+													"situation": "Bonus to initiative rolls if leader",
+													"amount": 1,
+													"per_level": true
+												}
+											],
+											"disabled": true
+										}
+									]
+								}
+							],
+							"points_per_level": 5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Leadership"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Srategy"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "starts_with",
+										"qualifier": "Tactics"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Intelligence Analysis"
+									},
+									"amount": 1,
+									"per_level": true
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "Savoir-Faire"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "Military"
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							],
+							"can_level": true,
+							"levels": 1,
+							"calc": {
+								"points": 5,
+								"current_level": 1
+							}
+						},
+						{
+							"id": "tDUM6dBn9lclMQe5F",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "trClz3uZE-XIfFJKI"
+							},
+							"name": "Unfazeable",
+							"reference": "B95",
+							"local_notes": "Exempt from fright checks. Reaction modifiers do not affect you.",
+							"tags": [
+								"Advantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mII3doG68fQvjpFvv",
+									"name": "Familiar Horrors",
+									"reference": "H20",
+									"cost_adj": "-50%",
+									"disabled": true
+								}
+							],
+							"base_points": 15,
+							"calc": {
+								"points": 15
+							}
+						}
+					],
+					"calc": {
+						"points": 341
+					}
+				}
+			],
+			"calc": {
+				"points": 341
+			}
+		},
+		{
+			"id": "TRuqUhBN-anjSkZDI",
+			"name": "Disadvantages",
+			"children": [
+				{
+					"id": "Tp87J5ar7GT2p3N_Z",
+					"name": "Pick -35 points worth",
+					"template_picker": {
+						"type": "points",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": -35
+						}
+					},
+					"children": [
+						{
+							"id": "TAjK0QdGJtWTZ7BSy",
+							"name": "Campaign Specific",
+							"children": [
+								{
+									"id": "th_IQmuw0cDCGG73n",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "tIDqwizWRQYDHHGUX"
+									},
+									"name": "Dependent (@Who@)",
+									"reference": "B131",
+									"tags": [
+										"Disadvantage",
+										"Social"
+									],
+									"modifiers": [
+										{
+											"id": "MfiRafsOKNPLO5Y63",
+											"name": "Competence",
+											"children": [
+												{
+													"id": "mK2aOTQdkFSQb_kZz",
+													"name": "Point total",
+													"reference": "B131",
+													"local_notes": "100% of your starting points",
+													"cost_adj": "-1",
+													"disabled": true
+												},
+												{
+													"id": "mUyAXjdu9WE9BvXLA",
+													"name": "Point total",
+													"reference": "B131",
+													"local_notes": "75% of your starting points",
+													"cost_adj": "-2",
+													"disabled": true
+												},
+												{
+													"id": "moOjfW10Ktgx99DNJ",
+													"name": "Point total",
+													"reference": "B131",
+													"local_notes": "50% of your starting points",
+													"cost_adj": "-5",
+													"disabled": true
+												},
+												{
+													"id": "mJGo03xGCCHbTtlwq",
+													"name": "Point total",
+													"reference": "B131",
+													"local_notes": "25% of your starting points",
+													"cost_adj": "-10",
+													"disabled": true
+												},
+												{
+													"id": "msjkk7JVKXRUDLI9b",
+													"name": "Point total",
+													"reference": "B131",
+													"local_notes": "0 or fewer points",
+													"cost_adj": "-15",
+													"disabled": true
+												}
+											]
+										},
+										{
+											"id": "MBFWe6QAy1L7Fjm3p",
+											"name": "Importance",
+											"children": [
+												{
+													"id": "mUGnOg9j3C_uv0bAV",
+													"name": "Acquaintance",
+													"reference": "B131",
+													"cost_adj": "x0.5",
+													"disabled": true
+												},
+												{
+													"id": "m4AAnrJcgesWhA6ox",
+													"name": "Friend",
+													"reference": "B131",
+													"cost_adj": "x1",
+													"disabled": true
+												},
+												{
+													"id": "msyhiu_bo-1Uz3_jk",
+													"name": "Loved one",
+													"reference": "B131",
+													"cost_adj": "x2",
+													"disabled": true
+												}
+											]
+										},
+										{
+											"id": "MyIPMVgKAeHlHvyet",
+											"name": "Frequency of Appearance",
+											"children": [
+												{
+													"id": "mG07uUwUBQwdSIAUs",
+													"name": "Appears quite rarely",
+													"reference": "B36",
+													"local_notes": "6-",
+													"cost_adj": "x0.5",
+													"disabled": true
+												},
+												{
+													"id": "mZeEs2PkTBfyA3mMm",
+													"name": "Appears fairly often",
+													"reference": "B36",
+													"local_notes": "9-",
+													"cost_adj": "x1",
+													"disabled": true
+												},
+												{
+													"id": "mCHAxxQNlAq4Bqomr",
+													"name": "Appears quite often",
+													"reference": "B36",
+													"local_notes": "12-",
+													"cost_adj": "x2",
+													"disabled": true
+												},
+												{
+													"id": "msr_y1tXVtCgAEB5n",
+													"name": "Appears almost all the time",
+													"reference": "B36",
+													"local_notes": "15-",
+													"cost_adj": "x3",
+													"disabled": true
+												}
+											]
+										},
+										{
+											"id": "maRRDajw7W-JImH0o",
+											"name": "Group",
+											"reference": "B131",
+											"cost_adj": "x2",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "tzTmyxpjbPSwfbo99",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t1HUGl4o498iCyvrw"
+									},
+									"name": "Duty (@Duty@)",
+									"reference": "B133",
+									"tags": [
+										"Disadvantage",
+										"Social"
+									],
+									"modifiers": [
+										{
+											"id": "MbPhVzJ8sGg2PqmDX",
+											"name": "Frequency",
+											"children": [
+												{
+													"id": "mmEmesMy-K2-5PIWl",
+													"name": "Quite rarely",
+													"local_notes": "6-",
+													"cost_adj": "-2",
+													"disabled": true
+												},
+												{
+													"id": "m0dwPebF5Q8tZ3-7C",
+													"name": "Fairly often",
+													"local_notes": "9-",
+													"cost_adj": "-5",
+													"disabled": true
+												},
+												{
+													"id": "mpVLrZMaygIDqCRhY",
+													"name": "Quite often",
+													"local_notes": "12-",
+													"cost_adj": "-10",
+													"disabled": true
+												},
+												{
+													"id": "mTe6InsyVyeKUsq2c",
+													"name": "Almost all the time",
+													"local_notes": "15- or always on duty",
+													"cost_adj": "-15",
+													"disabled": true
+												}
+											]
+										},
+										{
+											"id": "m_pJjVpM3XYeEGyl8",
+											"name": "Extremely Hazardous",
+											"cost_adj": "-5",
+											"disabled": true
+										},
+										{
+											"id": "muscImWsJyouA7vAW",
+											"name": "Involuntary",
+											"cost_adj": "-5",
+											"disabled": true
+										},
+										{
+											"id": "m7VCdonW5ONwIn8e_",
+											"name": "Nonhazardous",
+											"cost_adj": "5",
+											"disabled": true
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "thl6YZplOkOPQif6k",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "t5bwP6TnS4cX-zM8L"
+									},
+									"name": "Enemy (@Who@)",
+									"reference": "B135",
+									"tags": [
+										"Disadvantage",
+										"Social"
+									],
+									"modifiers": [
+										{
+											"id": "Mvj6V3evQMcw2mxTi",
+											"name": "Power",
+											"children": [
+												{
+													"id": "mUj_sOfME8ivOzHxp",
+													"name": "Weak Individual",
+													"reference": "B135",
+													"local_notes": "50% of your starting points",
+													"cost_adj": "-5",
+													"disabled": true
+												},
+												{
+													"id": "mnLbTLj6zVLVshpEc",
+													"name": "Equal Individual",
+													"reference": "B135",
+													"local_notes": "100% of your starting points",
+													"cost_adj": "-10",
+													"disabled": true
+												},
+												{
+													"id": "mXIsgmp6Z_c92QUiI",
+													"name": "Powerful Individual",
+													"reference": "B135",
+													"local_notes": "\u003e150% of your starting points",
+													"cost_adj": "-20",
+													"disabled": true
+												},
+												{
+													"id": "mTS4KYMw-8CWz3aj7",
+													"name": "Weak Group",
+													"reference": "B135",
+													"cost_adj": "-10",
+													"disabled": true
+												},
+												{
+													"id": "mwYd2XmwTvSAtDDX6",
+													"name": "Medium Group",
+													"reference": "B135",
+													"cost_adj": "-20",
+													"disabled": true
+												},
+												{
+													"id": "m-J4FF_hAkB_wT5rG",
+													"name": "Large/Powerful Group",
+													"reference": "B135",
+													"cost_adj": "-30",
+													"disabled": true
+												},
+												{
+													"id": "mCjqmvhqBFYXdu7J6",
+													"name": "Utterly Formidable Group",
+													"reference": "B135",
+													"cost_adj": "-40",
+													"disabled": true
+												}
+											]
+										},
+										{
+											"id": "MFd0ztUNjC4_KRJjV",
+											"name": "Special Cases",
+											"children": [
+												{
+													"id": "m7_0BTgfCU4nmXmmK",
+													"name": "Evil Twin",
+													"reference": "B135",
+													"disabled": true
+												},
+												{
+													"id": "meKjuyA8iYMeWWfhu",
+													"name": "Evil Twin",
+													"reference": "B135",
+													"local_notes": "More skilled or extra abilities",
+													"cost_adj": "-5",
+													"disabled": true
+												},
+												{
+													"id": "mqV9SjeCpbVYEGf5q",
+													"name": "Evil Twin",
+													"reference": "B135",
+													"local_notes": "More skilled and extra abilities",
+													"cost_adj": "-10",
+													"disabled": true
+												},
+												{
+													"id": "mNEnKtuOl8Bs5pkOi",
+													"name": "Unknown",
+													"reference": "B135",
+													"cost_adj": "-5",
+													"disabled": true
+												}
+											]
+										},
+										{
+											"id": "M6a1mHppIgnjdgiMK",
+											"name": "Intent",
+											"children": [
+												{
+													"id": "mzxn1eoXUxRP1vZXH",
+													"name": "Watcher",
+													"reference": "B135",
+													"cost_adj": "x0.25",
+													"disabled": true
+												},
+												{
+													"id": "mvLvOHPBJa-JyOra4",
+													"name": "Rival",
+													"reference": "B135",
+													"cost_adj": "x0.5",
+													"disabled": true
+												},
+												{
+													"id": "mjFN9hhy7siIl4iHy",
+													"name": "Hunter",
+													"reference": "B135",
+													"cost_adj": "x1",
+													"disabled": true
+												}
+											]
+										},
+										{
+											"id": "MH0pLJ209YALN3Per",
+											"name": "Frequency of Appearance",
+											"children": [
+												{
+													"id": "mhnEivqUUl3T7eB5c",
+													"name": "Appears quite rarely",
+													"reference": "B36",
+													"local_notes": "6-",
+													"cost_adj": "x0.5",
+													"disabled": true
+												},
+												{
+													"id": "moK-onagCAlDpQZm6",
+													"name": "Appears fairly often",
+													"reference": "B36",
+													"local_notes": "9-",
+													"cost_adj": "x1",
+													"disabled": true
+												},
+												{
+													"id": "mp9IEz0fp88fozvJa",
+													"name": "Appears quite often",
+													"reference": "B36",
+													"local_notes": "12-",
+													"cost_adj": "x2",
+													"disabled": true
+												},
+												{
+													"id": "mxyWGH14VeYNyP4Xl",
+													"name": "Appears almost all the time",
+													"reference": "B36",
+													"local_notes": "15-",
+													"cost_adj": "x3",
+													"disabled": true
+												}
+											]
+										}
+									],
+									"calc": {
+										"points": 0
+									}
+								},
+								{
+									"id": "twQcQsCqJYFsKMYhg",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Traits.adq",
+										"id": "ty1WUMFa7ACBHXdjz"
+									},
+									"name": "Space Sickness",
+									"reference": "B156",
+									"tags": [
+										"Disadvantage",
+										"Physical"
+									],
+									"prereqs": {
+										"type": "prereq_list",
+										"all": true,
+										"prereqs": [
+											{
+												"type": "skill_prereq",
+												"has": false,
+												"name": {
+													"compare": "is",
+													"qualifier": "free fall"
+												}
+											}
+										]
+									},
+									"base_points": -10,
+									"calc": {
+										"points": -10
+									}
+								}
+							],
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "twOTgRlNdt0tzBXpT",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tC7vHppsCtZue1RiC"
+							},
+							"name": "Addiction (@Substance@)",
+							"reference": "B122",
+							"tags": [
+								"Disadvantage",
+								"Mental",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "M3lL0SgT4-KBZTTYO",
+									"name": "Legality Modifiers",
+									"children": [
+										{
+											"id": "mhQRLl-zGrSf68G7k",
+											"name": "Illegal",
+											"reference": "B122",
+											"disabled": true
+										},
+										{
+											"id": "moxjVkx1VeKZh4K8E",
+											"name": "Legal",
+											"reference": "B122",
+											"cost_adj": "5",
+											"disabled": true
+										}
+									]
+								},
+								{
+									"id": "M_T84cBFdQjawhV2p",
+									"name": "Cost Modifiers",
+									"children": [
+										{
+											"id": "mMmQwJ75OZix9XOR-",
+											"name": "Cheap",
+											"reference": "B122",
+											"cost_adj": "-5",
+											"disabled": true
+										},
+										{
+											"id": "mha1cpx6r-LqbU1FC",
+											"name": "Expensive",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "mNQPp2iUf4KnNPDUl",
+											"name": "Very Expensive",
+											"reference": "B122",
+											"cost_adj": "-20",
+											"disabled": true
+										}
+									]
+								},
+								{
+									"id": "MoGspHzeuSRYDJ9QO",
+									"name": "Effect Modifiers",
+									"children": [
+										{
+											"id": "m1tACN9UKXgrtRf-4",
+											"name": "Highly Addictive (-5 on withdrawal roll)",
+											"reference": "B122",
+											"cost_adj": "-5",
+											"disabled": true
+										},
+										{
+											"id": "mfgDiyok3pehv5K20",
+											"name": "Totally Addictive (-10 on withdrawal roll)",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "m9avjKAY3uuqp8MA0",
+											"name": "Hallucinogenic",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										},
+										{
+											"id": "m30yC-9tnYsMO0beE",
+											"name": "Incapacitating",
+											"reference": "B122",
+											"cost_adj": "-10",
+											"disabled": true
+										}
+									]
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tVjMuFX-NEVHXGO9X",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tCkS7354KTh2G6WfI"
+							},
+							"name": "Alcoholism",
+							"reference": "B122",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "mmPnARbz_mjn8rmeV",
+									"name": "Illegal",
+									"reference": "B122",
+									"cost_adj": "-5",
+									"disabled": true
+								}
+							],
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "tjE2-XWM32f320Wgd",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tnrtPQ0mWF4k75plo"
+							},
+							"name": "Bad Temper",
+							"reference": "B124",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "ttMeFE-IhS-HNyjlz",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tELmv9bNG_8o75sYZ"
+							},
+							"name": "Berserk",
+							"reference": "B124",
+							"local_notes": "Make a self-control roll any time you suffer damage over 1/4 your HP in the space of one second, and whenever you witness equivalent harm to a loved one",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mLXHxBa2J4oAIJ6mK",
+									"name": "Battle Rage",
+									"cost_adj": "50%",
+									"disabled": true
+								}
+							],
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tPjWEMROb7QiToYXK",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tmRX0o0iO20zWIVyo"
+							},
+							"name": "Bloodlust",
+							"reference": "B125",
+							"local_notes": "You must make a self-control roll whenever you need to accept a surrender, evade a sentry, take a prisoner, etc.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tte1PV93CtoLeCtmb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tMrRhiOyGg6WNz09k"
+							},
+							"name": "Bully",
+							"reference": "B125",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -10,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from others",
+									"amount": -2
+								}
+							],
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tk4z5pVT43oUu_P23",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tNe543pbMl1IkZxSo"
+							},
+							"name": "Callous",
+							"reference": "B125",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -5,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "psychology"
+									},
+									"amount": -3
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "teaching"
+									},
+									"amount": -3
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "from past victims and anyone with Empathy",
+									"amount": -1
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "to Interrogation and Intimidation rolls when you use threats or torture",
+									"amount": 1
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tVxbcT5-oZvgExcho",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tzBDG0xUlT_dh7FuY"
+							},
+							"name": "Chummy",
+							"reference": "B126",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -5,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "to others",
+									"amount": 2
+								},
+								{
+									"type": "conditional_modifier",
+									"situation": "to IQ-based skills when alone",
+									"amount": -1
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tBP2xnzHD6jXvyBRg",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "txSrmgLB0M36uR802"
+							},
+							"name": "Code of Honor (Soldier's)",
+							"reference": "B127",
+							"local_notes": "An officer should be tough but fair, lead from the front, and look out for his men; an enlisted man should look out for his buddies and take care of his kit. Every soldier should be willing to fight and die for the honor of his unit, service, and country; follow orders; obey the “rules of war”; treat an honorable enemy with respect (a dishonorable enemy deserves a bullet); and wear the uniform with pride.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tKqKkL6CPW0gfUgXR",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tapWLsuN75Unedmwn"
+							},
+							"name": "Compulsive Carousing",
+							"reference": "B128",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -5,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from like-minded extroverts",
+									"amount": 1
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "or worse from sober-minded citizens (GM discretion)",
+									"amount": -1
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tyPJKAUw5Q_X16c-L",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tK4QdVZYxGAd4cqr_"
+							},
+							"name": "Compulsive Gambling",
+							"reference": "B128",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "t_glchHHpGSK_zaac",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tw0bUcztJTYVziLfH"
+							},
+							"name": "Compulsive Spending",
+							"reference": "B129",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "miserliness"
+										}
+									}
+								]
+							},
+							"cr_adj": "major_cost_of_living_increase",
+							"cr": 12,
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "thIIpkvieRe7_rsZc",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t2O8gMxbRPpAWLej9"
+							},
+							"name": "Curious",
+							"reference": "B129",
+							"local_notes": "Make a self-control roll when presented with an interesting item or situation",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tF6aGQVz8lak4IIEK",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tLDRbhXFP-3CeGka-"
+							},
+							"name": "Fanaticism (@Group or ideal@)",
+							"reference": "B136",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mVAKV8o3npOnCKEld",
+									"name": "Extreme",
+									"reference": "B136",
+									"disabled": true
+								}
+							],
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "tXjmOTMOIwYc6AHOs",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tzk8xRWG-00Yzdsjm"
+							},
+							"name": "Flashbacks",
+							"reference": "B136",
+							"local_notes": "In any situation that the GM feels is stressful, he will roll 3d. On a 6 or less, you have a flashback. The GM will roll whenever you miss a Fright Check or make the roll exactly, and whenever you fail a self-control roll for another stress-related disadvantage.",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"modifiers": [
+								{
+									"id": "m03gQDk-en-_ipy39",
+									"name": "Mild",
+									"reference": "B136",
+									"local_notes": "Duration: 2d seconds; -2 on all skill rolls",
+									"cost_adj": "-5",
+									"disabled": true
+								},
+								{
+									"id": "mrmBWfu27u_5jeJ6v",
+									"name": "Severe",
+									"reference": "B136",
+									"local_notes": "Duration: 1d minutes; -5 on all skill rolls",
+									"cost_adj": "-10",
+									"disabled": true
+								},
+								{
+									"id": "mMs1GSBhcvHDo9vSv",
+									"name": "Crippling",
+									"local_notes": "Duration: 3d minutes; Precludes all skill use",
+									"cost_adj": "-20",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tyMvHEhulO-XEsocE",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tY_y_Y29sMnSLYjwS"
+							},
+							"name": "Gullibility",
+							"reference": "B137",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": false,
+										"name": {
+											"compare": "is",
+											"qualifier": "detect lies"
+										}
+									}
+								]
+							},
+							"cr": 12,
+							"base_points": -10,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "merchant"
+									},
+									"amount": -3
+								}
+							],
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "t75_KCVDJcse50v7t",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t7pCgXTVkswkTjOZO"
+							},
+							"name": "Honesty",
+							"reference": "B138",
+							"local_notes": "Make a self-control roll when faced with the “need” to break unreasonable laws; if you fail, you must obey the law, whatever the consequences. If you manage to resist your urges and break the law, make a second self-control roll afterward. If you fail, you must turn yourself in to the authorities!",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tUL9DIfPipX40Ntnn",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tM8LVZ-8-HpvEFsPi"
+							},
+							"name": "Incurious",
+							"reference": "B140",
+							"local_notes": "Make a self-control roll when confronted with something strange. If you fail, you ignore it!",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -5,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "to new things",
+									"amount": -1
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "txGniyBggylQAoG-9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "ttHkLI9zwzfeOIEZc"
+							},
+							"name": "Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)",
+							"reference": "B140",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mjdA2HNa4wYoW0JkO",
+									"name": "Scope: Common",
+									"reference": "B140",
+									"cost_adj": "-5",
+									"disabled": true
+								},
+								{
+									"id": "mrt8UeWyAXLmhgLsD",
+									"name": "Scope: Occasional",
+									"reference": "B140",
+									"cost_adj": "-2",
+									"disabled": true
+								},
+								{
+									"id": "m--_r5jdxpy-mqDGO",
+									"name": "Scope: Rare",
+									"reference": "B140",
+									"cost_adj": "-1",
+									"disabled": true
+								},
+								{
+									"id": "mDl6VwH9SUPcvRQQ2",
+									"name": "Scope: Anyone unlike you",
+									"reference": "B140",
+									"cost_adj": "-10",
+									"disabled": true
+								}
+							],
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)",
+									"amount": -1
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tJIHJnWC6bx6p9G8S",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tNNZgqAtiUMQ_dZs6"
+							},
+							"name": "Jealousy",
+							"reference": "B140",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -10,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "toward those you are jealous of (may be as much as -4, at GM's discretion)",
+									"amount": -2
+								}
+							],
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tnyfzYzAIdJcHR-b-",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tSiOKuvTJkqJhuRrI"
+							},
+							"name": "Lecherousness",
+							"reference": "B142",
+							"local_notes": "Make a self-control roll whenever you have more than the briefest contact with an appealing member of the sex you find attractive, at -5 if this person is Handsome/Beautiful, or at -10 if Very Handsome/Very Beautiful. If you fail, you must make a “pass” using whatever wiles and skills you can bring to bear.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "tgPDhBR4M7GaWyiyX",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tzWQ90ARlX5DcAAu7"
+							},
+							"name": "Nightmares",
+							"reference": "B144",
+							"local_notes": "Make a self-control roll each morning upon awakening. If you fail, you suffered nightmares; this costs you 1 FP that you can only recover through sleep. On a roll of 17 or 18, you are left shaking, and are at -1 to all skill and Perception rolls for the entire day.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "t6j6desTpUsPEzpUp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tAFhfFoZosiPCFUhy"
+							},
+							"name": "No Sense of Humor",
+							"reference": "B146",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -10,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from others in any situation where No Sense of Humor becomes evident",
+									"amount": -2
+								}
+							],
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "t8vrBPzR76SWBgbeV",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tPbL1_rekOzkM86wz"
+							},
+							"name": "Overconfidence",
+							"reference": "B148",
+							"local_notes": "You must make a self-control roll any time the GM feels you show an unreasonable degree of caution. If you fail, you must go ahead as though you were able to handle the situation!",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -5,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from young or naive individuals who believe you are as good as you say you are",
+									"amount": 2
+								},
+								{
+									"type": "reaction_bonus",
+									"situation": "from experienced NPCs",
+									"amount": -2
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tfKru2qvUgvQbdShp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tw81RysAzky-yjNYN"
+							},
+							"name": "Selfless",
+							"reference": "B153",
+							"local_notes": "You must make a self-control roll to put your needs – even survival – before those of someone else.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "t2gfV5afRwXKY-72m",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tYdqy1uPSGI8VqvLV"
+							},
+							"name": "Selfish",
+							"reference": "B153",
+							"local_notes": "Make a self-control roll whenever you experience a clear social slight or “snub.” On a failure, you lash out at the offending party just as if you had Bad Temper.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -5,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from others when your Selfishness surfaces",
+									"amount": -3
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "t-_DuRi3nxv_URk2w",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t04cLZ44QvEYdsP3F"
+							},
+							"name": "Sense of Duty",
+							"reference": "B153",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"modifiers": [
+								{
+									"id": "mRTSvofNZBTPkN7o9",
+									"name": "Friends and Companions",
+									"reference": "B153",
+									"cost_adj": "-5",
+									"disabled": true
+								},
+								{
+									"id": "mhwX7F8FgF6afYdyT",
+									"name": "@Small Group@",
+									"reference": "B153",
+									"cost_adj": "-5",
+									"disabled": true
+								},
+								{
+									"id": "mHVKQ11BlaGrtmk9F",
+									"name": "@Individual@",
+									"reference": "B153",
+									"cost_adj": "-2",
+									"disabled": true
+								},
+								{
+									"id": "m_63lyVHJwhIEa8mB",
+									"name": "@Large Group@",
+									"reference": "B153",
+									"cost_adj": "-10",
+									"disabled": true
+								},
+								{
+									"id": "muoeyDEjIkN3-1AeX",
+									"name": "@Entire Race@",
+									"reference": "B153",
+									"cost_adj": "-15",
+									"disabled": true
+								},
+								{
+									"id": "moqqxSz-nPrVLvFIQ",
+									"name": "Every Living Being",
+									"reference": "B153",
+									"cost_adj": "-20",
+									"disabled": true
+								}
+							],
+							"calc": {
+								"points": 0
+							}
+						},
+						{
+							"id": "tR5KWDlGFLOYeAhGs",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t4gqkFmqABx7dLjkS"
+							},
+							"name": "Stubbornness",
+							"reference": "B157",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -5,
+							"features": [
+								{
+									"type": "reaction_bonus",
+									"situation": "from others",
+									"amount": -1
+								}
+							],
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tFRqfHcT2Jqe9WKcI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tu0KYjUBLw84B4gKc"
+							},
+							"name": "Trickster",
+							"reference": "B159",
+							"local_notes": "Make a self-control roll each day. If you fail, you must try to trick a dangerous subject: a skilled warrior, a dangerous monster, a whole group of reasonably competent opponents, etc. If you resist, you get a cumulative -1 per day to your self-control roll until you finally fail a roll!",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr": 12,
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						},
+						{
+							"id": "tXs4RmLlF0TroolNu",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t9lxfCn84bo3idpX9"
+							},
+							"name": "Unluckiness",
+							"reference": "B160",
+							"local_notes": "Once per play session, the GM will arbitrarily and maliciously make something go wrong for you.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"base_points": -10,
+							"calc": {
+								"points": -10
+							}
+						},
+						{
+							"id": "tqCfXF0TnXPAXQQ9_",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "t8I0xw1Lj1_222aEN"
+							},
+							"name": "Workaholic",
+							"reference": "B162",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tR7eqAne-T3Iofsvm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tAKQUtRTjZeOEbA5y"
+							},
+							"name": "Wounded",
+							"reference": "B162",
+							"tags": [
+								"Disadvantage",
+								"Physical"
+							],
+							"base_points": -5,
+							"calc": {
+								"points": -5
+							}
+						},
+						{
+							"id": "tuMLvuk6sBH9CU1Gy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Traits.adq",
+								"id": "tretZ6xRq46CLvbPu"
+							},
+							"name": "Xenophobia (Strange and Unknown Things)",
+							"reference": "B150",
+							"local_notes": "You are upset by any sort of strange circumstances, and in particular by strange people. Make a self-control roll when surrounded by people of another race or nationality; roll at -3 if the people are not human. If you lose control, you might well attack strangers out of fear.",
+							"tags": [
+								"Disadvantage",
+								"Mental"
+							],
+							"cr_adj": "action_penalty",
+							"cr": 12,
+							"base_points": -15,
+							"calc": {
+								"points": -15
+							}
+						}
+					],
+					"calc": {
+						"points": -255
+					}
+				}
+			],
+			"calc": {
+				"points": -255
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "SZSMANUOjKOgaNBeS",
+			"name": "Primary Skills",
+			"children": [
+				{
+					"id": "sh9Y6ImBIOihawLxn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sPTlfb6j7JYiJ2sdx"
+					},
+					"name": "Savoir-Faire",
+					"reference": "B218,MA59",
+					"tags": [
+						"Knowledge",
+						"Military",
+						"Social"
+					],
+					"specialization": "Military",
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					],
+					"points": 4
+				},
+				{
+					"id": "s-caPlK6SgmR_W1Cn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s-Sz8XmnGE56GDrez"
+					},
+					"name": "Soldier",
+					"reference": "B221",
+					"tags": [
+						"Military"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"tech_level": "",
+					"points": 8
+				},
+				{
+					"id": "ss3wrAcA_LAXCf7i-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s64oJ-8i-8xecRu4a"
+					},
+					"name": "Throwing",
+					"reference": "B226",
+					"tags": [
+						"Athletic",
+						"Combat",
+						"Ranged Combat",
+						"Weapon"
+					],
+					"difficulty": "dx/a",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "SZY9iTezcvIBBOBWV",
+					"name": "Pick 8 points worth",
+					"template_picker": {
+						"type": "points",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 8
+						}
+					},
+					"children": [
+						{
+							"id": "s-mvVJ7DZdSkEbP-0",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sBJgeWUs81Ifhob4Z"
+							},
+							"name": "Beam Weapons",
+							"reference": "B179",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "@Weapon class@",
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Beam Weapons",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"specialization": "Pistol",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "s6sFVzTTQVAoTySNN",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sT5htbz4-Mr0PFCk7"
+							},
+							"name": "Guns",
+							"reference": "B198",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "@Gun class@",
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Guns",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sccWNLQ4pVZ5W6brq",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sD52ZWybVs6biZy2K"
+							},
+							"name": "Liquid Projector",
+							"reference": "B205",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "@Weapon class@",
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Liquid Projector",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "S3RcC7t-beZkMigML",
+					"name": "Pick 4 points worth",
+					"template_picker": {
+						"type": "points",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 4
+						}
+					},
+					"children": [
+						{
+							"id": "sIh6dUOPwIo3uLfks",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sCrVXzblht0cVVzWN"
+							},
+							"name": "Axe/Mace",
+							"reference": "B208",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Axe/Mace",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Flail",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sF_cg-algBICVw-Yk",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "slOONrK6jDHvcRoGx"
+							},
+							"name": "Knife",
+							"reference": "B208",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -3
+								},
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sm54-xjgDpjNog4Cp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s-DdOtFsU7dX4Ttfz"
+							},
+							"name": "Shortsword",
+							"reference": "B209",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sYXiq2zPPOXIYt_QR",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s3KM8dub0Xn5_9oPI"
+							},
+							"name": "Thrown Weapon",
+							"reference": "B226",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "Knife",
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						}
+					]
+				},
+				{
+					"id": "SE0A5h4YNa_pc3Qf-",
+					"name": "Choose two",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 2
+						}
+					},
+					"children": [
+						{
+							"id": "sv9evisHF5rajtj-i",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sEw2VcGPL_pN66Fah"
+							},
+							"name": "Boxing",
+							"reference": "B182,MA55",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Boxing"
+									},
+									"level": {
+										"compare": "at_least",
+										"qualifier": 1
+									},
+									"amount": 1,
+									"per_die": true
+								},
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Boxing"
+									},
+									"level": {
+										"compare": "at_least",
+										"qualifier": 2
+									},
+									"amount": 1,
+									"per_die": true
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "sqdNWOWVZv13vC96d",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "shtDdl5thrvKSnJHf"
+							},
+							"name": "Brawling",
+							"reference": "B182,MA55",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/e",
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Brawling"
+									},
+									"level": {
+										"compare": "at_least",
+										"qualifier": 2
+									},
+									"amount": 1,
+									"per_die": true
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "ss36R59rfVJP-RwSm",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sWVqswxT3hi7db0kD"
+							},
+							"name": "Judo",
+							"reference": "B203,MA57",
+							"local_notes": "Allows parrying two different attacks per turn, one with each hand.",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/h",
+							"encumbrance_penalty_multiplier": 1,
+							"weapons": [
+								{
+									"id": "wkqUVKLvJBY0qz_vH",
+									"sv": 1,
+									"damage": {
+										"type": "cr",
+										"st": "thr",
+										"base": "-1"
+									},
+									"usage": "Throw",
+									"reach": "C,1",
+									"parry": "0F",
+									"defaults": [
+										{
+											"type": "skill",
+											"name": "Judo"
+										}
+									],
+									"calc": {
+										"damage": "thr-1 cr"
+									}
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "sHmFqqJX4wc2COkpB",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sU4bjpp9TsvnRavPN"
+							},
+							"name": "Karate",
+							"reference": "B203,MA57",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/h",
+							"encumbrance_penalty_multiplier": 1,
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Karate"
+									},
+									"level": {
+										"compare": "at_least"
+									},
+									"amount": 1,
+									"per_die": true
+								},
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Karate"
+									},
+									"level": {
+										"compare": "at_least",
+										"qualifier": 1
+									},
+									"amount": 1,
+									"per_die": true
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "sLxOLWM-dDk0CsAzT",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8parl7zgbXys0OF2"
+							},
+							"name": "Wrestling",
+							"reference": "B228,MA61",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 2
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "Sr4bX_oD5iMNNo-pI",
+			"name": "Secondary Skills",
+			"children": [
+				{
+					"id": "SKwQxsAGladcfG8Hv",
+					"name": "Choose one",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 1
+						}
+					},
+					"children": [
+						{
+							"id": "spvHP_hskFVumVa17",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sGqQ0und_g8u3ez2b"
+							},
+							"name": "Driving",
+							"reference": "B188",
+							"tags": [
+								"Vehicle"
+							],
+							"specialization": "@Vehicle class@",
+							"difficulty": "dx/a",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Driving",
+									"specialization": "Heavy Wheeled",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Driving",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "slrWlmiV2nza0dOYA",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sQE2t0-gMM5-4KgPb"
+							},
+							"name": "Piloting",
+							"reference": "B214",
+							"tags": [
+								"Vehicle"
+							],
+							"specialization": "@Flying vehicle class@",
+							"difficulty": "dx/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Piloting",
+									"specialization": "High-Performance Airplane",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Piloting",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						}
+					]
+				},
+				{
+					"id": "s5EXr1JTRkBXC_ZaH",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sKtd60c-jdtMDfOIt"
+					},
+					"name": "Camouflage",
+					"reference": "B183",
+					"tags": [
+						"Exploration",
+						"Military",
+						"Outdoor"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Survival",
+							"modifier": -2
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "sEFS8-MfNxYN2kQEG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sBo_rPo1Tssf4Qjf3"
+					},
+					"name": "Explosives",
+					"reference": "B194",
+					"tags": [
+						"Military",
+						"Technical"
+					],
+					"specialization": "@Specialty@",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Combat",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Mining",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"specialization": "Underwater Demolition",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Explosives",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 2
+				},
+				{
+					"id": "s3PbozTMKG_gq3Q0l",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s9b5e-6c-ljOeUtt5"
+					},
+					"name": "Hiking",
+					"reference": "B200",
+					"tags": [
+						"Athletic",
+						"Exploration",
+						"Outdoor"
+					],
+					"difficulty": "ht/a",
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -5
+						}
+					],
+					"points": 2
+				},
+				{
+					"id": "s-RdfyUafBegZs3Im",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "svEm7OyeCu_9wJ8Kk"
+					},
+					"name": "Stealth",
+					"reference": "B222",
+					"tags": [
+						"Criminal",
+						"Police",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "dx/a",
+					"encumbrance_penalty_multiplier": 1,
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"points": 2
+				}
+			]
+		},
+		{
+			"id": "SQTbyXe3fCVDi5f-a",
+			"name": "Background Skills",
+			"children": [
+				{
+					"id": "syQN2Hj5lepit29me",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "ssHhRG7LH-Ma3YDnH"
+					},
+					"name": "Computer Operation",
+					"reference": "B184",
+					"tags": [
+						"Everyman",
+						"Scholarly",
+						"Technical"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sPa78JMedIlr9zr5r",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "swXuff1DBhSQbTqy1"
+					},
+					"name": "Electronics Operation",
+					"reference": "B189",
+					"tags": [
+						"Technical"
+					],
+					"specialization": "Communications",
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Operation",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Electronics Repair",
+							"specialization": "Communications",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Engineer",
+							"specialization": "Electronics",
+							"modifier": -5
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sJ2ZunF1wXmyIBpdZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s9mV--3lpIfXO7N6Z"
+					},
+					"name": "First Aid",
+					"reference": "B195",
+					"tags": [
+						"Everyman",
+						"Medical"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Esoteric Medicine"
+						},
+						{
+							"type": "skill",
+							"name": "Physician"
+						},
+						{
+							"type": "skill",
+							"name": "Veterinary",
+							"modifier": -4
+						}
+					],
+					"tech_level": "",
+					"points": 1
+				},
+				{
+					"id": "sEl6REEropcp3a53z",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sGz21GskAlJXL1hYP"
+					},
+					"name": "Gesture",
+					"reference": "B198",
+					"tags": [
+						"Social"
+					],
+					"difficulty": "iq/e",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "sO48RBs0nlRURX8Hm",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sQ2Nj_TqMYKV7skUF"
+					},
+					"name": "Scrounging",
+					"reference": "B218",
+					"tags": [
+						"Criminal",
+						"Street"
+					],
+					"difficulty": "per/e",
+					"defaults": [
+						{
+							"type": "per",
+							"modifier": -4
+						}
+					],
+					"points": 1
+				},
+				{
+					"id": "SRATFnfJjS3csMfaI",
+					"name": "Choose 4",
+					"template_picker": {
+						"type": "count",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": 4
+						}
+					},
+					"children": [
+						{
+							"id": "sQhrxvdrQhgRaF8d8",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sn-AqOk3ggCs7fqIQ"
+							},
+							"name": "Administration",
+							"reference": "B174",
+							"tags": [
+								"Business",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Merchant",
+									"modifier": -3
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sd80oU5JX630sfhZI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sUyiTwddn_HuinJ4K"
+							},
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"local_notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+							"tags": [
+								"Everyman",
+								"Knowledge"
+							],
+							"replacements": {
+								"Barony, County, Duchy, or Small Nation": "@Any@",
+								"Specialty": "Specialty"
+							},
+							"specialization": "@Barony, County, Duchy, or Small Nation@",
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Geography",
+									"specialization": "@Specialty@",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "s93iWL1iBnzEghMw7",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "si-upI7A5RgdO0cjC"
+							},
+							"name": "Carousing",
+							"reference": "B183",
+							"tags": [
+								"Criminal",
+								"Social",
+								"Street"
+							],
+							"difficulty": "ht/e",
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -4
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sjHKPQmw4nRZ156H5",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sWFtA7Gvclq4aL-Yb"
+							},
+							"name": "Current Affairs",
+							"reference": "B186",
+							"tags": [
+								"Business",
+								"Everyman",
+								"Knowledge",
+								"Social"
+							],
+							"specialization": "@Subject@",
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Research",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Current Affairs",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "s5PoW6FquwqlWwU2i",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s8j6tcaNxXkF89Xbt"
+							},
+							"name": "Diplomacy",
+							"reference": "B187",
+							"tags": [
+								"Business",
+								"Police",
+								"Social"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Politics",
+									"modifier": -6
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "s4frukFu8Ty3tDKhu",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s7zUqAO5PEC5JKk_W"
+							},
+							"name": "Fast-Talk",
+							"reference": "B195",
+							"tags": [
+								"Criminal",
+								"Social",
+								"Spy",
+								"Street"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Acting",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sc4EZj4i-x_LnvZzF",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "shun-iitiwyWbrGcF"
+							},
+							"name": "Intimidation",
+							"reference": "B202",
+							"tags": [
+								"Criminal",
+								"Police",
+								"Social",
+								"Street"
+							],
+							"difficulty": "will/a",
+							"defaults": [
+								{
+									"type": "will",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Acting",
+									"modifier": -3
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sNRIe6uIxb9DtMn_H",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sSxGnNPMXyZpZKoFZ"
+							},
+							"name": "Leadership",
+							"reference": "B204",
+							"tags": [
+								"Military",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sCy-gc_8Jc9PXnRsg",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "spGG-fpOy0g88rFDO"
+							},
+							"name": "Public Speaking",
+							"reference": "B216",
+							"tags": [
+								"Business",
+								"Scholarly",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Acting",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Performance",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Politics",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "sRNrgHoJZbji7h6R-",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s9IHT34mK8yfSB7d_"
+							},
+							"name": "Spacer",
+							"reference": "B185",
+							"tags": [
+								"Vehicle"
+							],
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 1
+						},
+						{
+							"id": "sVmx0F_Jq6o-Mq5Bo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "smTUpMWJGqPeT1KER"
+							},
+							"name": "Streetwise",
+							"reference": "B223",
+							"tags": [
+								"Criminal",
+								"Police",
+								"Social",
+								"Street"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 1
+						},
+						{
+							"id": "spaoD2pUzL9sSwk3M",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sgWf_qVqI7HrPQUo7"
+							},
+							"name": "Tactics",
+							"reference": "B224,MA60",
+							"tags": [
+								"Military",
+								"Police"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Strategy",
+									"modifier": -6
+								}
+							],
+							"points": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "SrGSkmLOL6IPPQ0Kz",
+			"name": "Choose one of the following packages",
+			"template_picker": {
+				"type": "count",
+				"qualifier": {
+					"compare": "is",
+					"qualifier": 1
+				}
+			},
+			"children": [
+				{
+					"id": "Sf1_hEPDJGM3o_1DE",
+					"name": "Armored",
+					"children": [
+						{
+							"id": "Sv_YvT-nL2iFZayZQ",
+							"name": "One of",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 1
+								}
+							},
+							"children": [
+								{
+									"id": "sMeWzzDOaeuAMWqDk",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "s3VHZqqfZBcYRa58N"
+									},
+									"name": "Artillery",
+									"reference": "B178",
+									"tags": [
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"specialization": "@Weapon type@",
+									"difficulty": "iq/a",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -5
+										}
+									],
+									"tech_level": "",
+									"points": 4
+								},
+								{
+									"id": "sARJcaI8_awvi66iY",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "snZtm1wwlLIeerPuO"
+									},
+									"name": "Gunner",
+									"reference": "B198",
+									"tags": [
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"specialization": "@Gun class@",
+									"difficulty": "dx/e",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Gunner",
+											"modifier": -4
+										}
+									],
+									"tech_level": "",
+									"points": 4
+								}
+							]
+						},
+						{
+							"id": "s8d1E3wOwvgQdcA5S",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sGqQ0und_g8u3ez2b"
+							},
+							"name": "Driving",
+							"reference": "B188",
+							"local_notes": "Take Driving as a Secondary Skill and add to existing skill",
+							"tags": [
+								"Vehicle"
+							],
+							"specialization": "@Vehicle class@",
+							"difficulty": "dx/a",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Driving",
+									"specialization": "Heavy Wheeled",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Driving",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 6
+						},
+						{
+							"id": "syElLObRSWRjwtkqS",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "slL5EpCi-j8R3dv5U"
+							},
+							"name": "Forward Observer",
+							"reference": "B196",
+							"tags": [
+								"Military"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "s010FirAwJygUIVr9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sjiPOdZOS0Ve3xMhr"
+							},
+							"name": "Mechanic",
+							"reference": "B207",
+							"tags": [
+								"Maintenance",
+								"Repair"
+							],
+							"specialization": "@Machine class@",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "@Machine class@",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Machinist",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Mechanic",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 4
+						},
+						{
+							"id": "s7Ajak1_e6e_TVeQO",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "shChZ7cQ-SIe7JKo6"
+							},
+							"name": "Navigation",
+							"reference": "B211",
+							"tags": [
+								"Exploration",
+								"Outdoor",
+								"Technical",
+								"Vehicle"
+							],
+							"specialization": "@Environment@",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Astronomy",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Land",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Sea",
+									"modifier": -2
+								}
+							],
+							"tech_level": "",
+							"points": 4
+						}
+					]
+				},
+				{
+					"id": "S4rX8mKFhlc45nNeT",
+					"name": "Battlesuit Trooper",
+					"local_notes": "Campaign specific",
+					"children": [
+						{
+							"id": "srrG0SiIuB-NObbTo",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "siupVKFgi0pYYp4oa"
+							},
+							"name": "Battlesuit",
+							"reference": "B192",
+							"tags": [
+								"Military",
+								"Technical"
+							],
+							"difficulty": "dx/a",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Diving Suit",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Vacc Suit",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "NBC Suit",
+									"modifier": -2
+								}
+							],
+							"tech_level": "",
+							"points": 8
+						},
+						{
+							"id": "s-CHM6LrM4vVi63bY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sUOQKAH8IaMhpxk1o"
+							},
+							"name": "Electronics Operation",
+							"reference": "B189",
+							"tags": [
+								"Technical"
+							],
+							"specialization": "@Electronics type@",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"specialization": "@Electronics type@",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "sCgDl1XjLTe3gHyu3",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "slL5EpCi-j8R3dv5U"
+							},
+							"name": "Forward Observer",
+							"reference": "B196",
+							"tags": [
+								"Military"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "sqXZSaEE4rnK-DBs1",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "snZtm1wwlLIeerPuO"
+							},
+							"name": "Gunner",
+							"reference": "B198",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "@Gun class@",
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Gunner",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 4
+						},
+						{
+							"id": "sRNFv-LcJ9l7uRYx9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sjiPOdZOS0Ve3xMhr"
+							},
+							"name": "Mechanic",
+							"reference": "B207",
+							"tags": [
+								"Maintenance",
+								"Repair"
+							],
+							"specialization": "@Machine class@",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "@Machine class@",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Machinist",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Mechanic",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "sr-cmTj3h2DmMMc34",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "shChZ7cQ-SIe7JKo6"
+							},
+							"name": "Navigation",
+							"reference": "B211",
+							"tags": [
+								"Exploration",
+								"Outdoor",
+								"Technical",
+								"Vehicle"
+							],
+							"specialization": "@Environment@",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Astronomy",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Land",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Sea",
+									"modifier": -2
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						}
+					]
+				},
+				{
+					"id": "SVDjzzoqXhZPNk1bB",
+					"name": "Combat Engineer",
+					"children": [
+						{
+							"id": "sJdEM1SVdSSQrxCe-",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sUOQKAH8IaMhpxk1o"
+							},
+							"name": "Electronics Operation",
+							"reference": "B189",
+							"tags": [
+								"Technical"
+							],
+							"specialization": "@Electronics type@",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"specialization": "@Electronics type@",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "sfqw750X07RN8Jzsj",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "ss6-XDMsx8WBWJA0q"
+							},
+							"name": "Engineer",
+							"reference": "B190",
+							"tags": [
+								"Design",
+								"Engineer",
+								"Invention"
+							],
+							"specialization": "Combat",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Explosives",
+									"specialization": "Demolition",
+									"modifier": -6
+								}
+							],
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"when_tl": {
+									"compare": "at_least",
+									"qualifier": 5
+								},
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "mathematics"
+										},
+										"specialization": {
+											"compare": "is",
+											"qualifier": "applied"
+										}
+									}
+								]
+							},
+							"tech_level": "",
+							"points": 12
+						},
+						{
+							"id": "sKWh1rTyUGir72G1M",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "snZtm1wwlLIeerPuO"
+							},
+							"name": "Gunner",
+							"reference": "B198",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "@Gun class@",
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Gunner",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "sfoOjhYABMeb_WKrO",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sGgBbCTe-AwY1nu3W"
+							},
+							"name": "Mathematics",
+							"reference": "B207",
+							"tags": [
+								"Natural Science"
+							],
+							"specialization": "Applied",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Physics",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "sGnQJUT36EQ9SkaMv",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "shChZ7cQ-SIe7JKo6"
+							},
+							"name": "Navigation",
+							"reference": "B211",
+							"tags": [
+								"Exploration",
+								"Outdoor",
+								"Technical",
+								"Vehicle"
+							],
+							"specialization": "@Environment@",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Astronomy",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Land",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Sea",
+									"modifier": -2
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						}
+					]
+				},
+				{
+					"id": "S40NN4bdaxqC13sXQ",
+					"name": "Infantry",
+					"children": [
+						{
+							"id": "SBc4mVdndUep8ZGzE",
+							"name": "One of",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 1
+								}
+							},
+							"children": [
+								{
+									"id": "stnpK6UH-Kbi7h0JZ",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sBJgeWUs81Ifhob4Z"
+									},
+									"name": "Beam Weapons",
+									"reference": "B179",
+									"tags": [
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"specialization": "@Weapon class@",
+									"difficulty": "dx/e",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Beam Weapons",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"specialization": "Pistol",
+											"modifier": -4
+										}
+									],
+									"tech_level": "",
+									"points": 4
+								},
+								{
+									"id": "s4DTCMFWm0vqKTnnN",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sT5htbz4-Mr0PFCk7"
+									},
+									"name": "Guns",
+									"reference": "B198",
+									"tags": [
+										"Combat",
+										"Ranged Combat",
+										"Weapon"
+									],
+									"specialization": "@Gun class@",
+									"difficulty": "dx/e",
+									"defaults": [
+										{
+											"type": "dx",
+											"modifier": -4
+										},
+										{
+											"type": "skill",
+											"name": "Guns",
+											"modifier": -4
+										}
+									],
+									"tech_level": "",
+									"points": 4
+								}
+							]
+						},
+						{
+							"id": "sx_L_0Zgy8hSp8_ZI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sKtd60c-jdtMDfOIt"
+							},
+							"name": "Camouflage",
+							"reference": "B183",
+							"local_notes": "Add to existing skill",
+							"tags": [
+								"Exploration",
+								"Military",
+								"Outdoor"
+							],
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Survival",
+									"modifier": -2
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "shjMQtXXt-T-c79I3",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "slL5EpCi-j8R3dv5U"
+							},
+							"name": "Forward Observer",
+							"reference": "B196",
+							"tags": [
+								"Military"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "s1ha4muer4Gu4pdSv",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "snZtm1wwlLIeerPuO"
+							},
+							"name": "Gunner",
+							"reference": "B198",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "@Gun class@",
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Gunner",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 4
+						},
+						{
+							"id": "suYBsZ4PECQ8l8H8S",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s9b5e-6c-ljOeUtt5"
+							},
+							"name": "Hiking",
+							"reference": "B200",
+							"local_notes": "Add to existing skill",
+							"tags": [
+								"Athletic",
+								"Exploration",
+								"Outdoor"
+							],
+							"difficulty": "ht/a",
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -5
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "snaXvDciVOzCYyPAy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "so2Ldnofc7ZvAhwh_"
+							},
+							"name": "Navigation",
+							"reference": "B211",
+							"tags": [
+								"Exploration",
+								"Outdoor",
+								"Technical",
+								"Vehicle"
+							],
+							"specialization": "Land",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Cartography",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Mathematics",
+									"specialization": "Surveying",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Air",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Sea",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Underground",
+									"modifier": -2
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "sfA0AZpo2gsFkjo09",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sao5KzLs_4Bp0z208"
+							},
+							"name": "Survival",
+							"reference": "B223",
+							"tags": [
+								"Exploration",
+								"Outdoor"
+							],
+							"specialization": "@Any Land@",
+							"difficulty": "per/a",
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Survival",
+									"specialization": "Arctic",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Survival",
+									"specialization": "Desert",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Survival",
+									"specialization": "Island/Beach",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Survival",
+									"specialization": "Jungle",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Survival",
+									"specialization": "Mountain",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Survival",
+									"specialization": "Plains",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Survival",
+									"specialization": "Swamplands",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Survival",
+									"specialization": "Woodlands",
+									"modifier": -3
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "saJpPRu7x1raRKO4t",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sNx2U5ErYC6YZ-zbF"
+							},
+							"name": "Urban Survival",
+							"reference": "B228",
+							"tags": [
+								"Criminal",
+								"Police",
+								"Street"
+							],
+							"difficulty": "per/a",
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								}
+							],
+							"points": 2
+						}
+					]
+				},
+				{
+					"id": "SiPARJSprlG3Tn1JU",
+					"name": "Officer",
+					"children": [
+						{
+							"id": "svszARL5Itgu7n_5R",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sn-AqOk3ggCs7fqIQ"
+							},
+							"name": "Administration",
+							"reference": "B174",
+							"tags": [
+								"Business",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Merchant",
+									"modifier": -3
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "sItrgjjnj4xoA4_eH",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "szeHiRtktcHWqsul8"
+							},
+							"name": "Law",
+							"reference": "B204",
+							"tags": [
+								"Business",
+								"Humanities",
+								"Police",
+								"Social Sciences"
+							],
+							"replacements": {
+								"Specialty": "Military"
+							},
+							"specialization": "@Specialty@",
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "sYbuyyeMghQGiKEKG",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sSxGnNPMXyZpZKoFZ"
+							},
+							"name": "Leadership",
+							"reference": "B204",
+							"tags": [
+								"Military",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"points": 4
+						},
+						{
+							"id": "sZsKH0VWL9H_lB5R9",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sgWf_qVqI7HrPQUo7"
+							},
+							"name": "Tactics",
+							"reference": "B224,MA60",
+							"tags": [
+								"Military",
+								"Police"
+							],
+							"difficulty": "iq/h",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Strategy",
+									"modifier": -6
+								}
+							],
+							"points": 8
+						},
+						{
+							"id": "SqWQL61ntKp7TQiDV",
+							"name": "One of",
+							"template_picker": {
+								"type": "count",
+								"qualifier": {
+									"compare": "is",
+									"qualifier": 1
+								}
+							},
+							"children": [
+								{
+									"id": "s8FVhKSgl0NtO7j04",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sqBPSrIfEk4eRv41a"
+									},
+									"name": "Strategy",
+									"reference": "B222",
+									"tags": [
+										"Military"
+									],
+									"specialization": "Air",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Intelligence Analysis",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Tactics",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Strategy",
+											"modifier": -4
+										}
+									],
+									"points": 4
+								},
+								{
+									"id": "snAzZOWgiAhFHCc2e",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sTzZdkEt9palkx6X8"
+									},
+									"name": "Strategy",
+									"reference": "B222",
+									"tags": [
+										"Military"
+									],
+									"specialization": "Land",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Intelligence Analysis",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Tactics",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Strategy",
+											"modifier": -4
+										}
+									],
+									"points": 4
+								},
+								{
+									"id": "si5kjb0DeMSqgWySV",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "sDjZhd_pI3nsLNPQp"
+									},
+									"name": "Strategy",
+									"reference": "B222",
+									"tags": [
+										"Military"
+									],
+									"specialization": "Naval",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Intelligence Analysis",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Tactics",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Strategy",
+											"modifier": -4
+										}
+									],
+									"points": 4
+								},
+								{
+									"id": "s9TFsDWVQ71PVcmiL",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Basic Set/Basic Set Skills.skl",
+										"id": "svZCidrvq9QTwwV3-"
+									},
+									"name": "Strategy",
+									"reference": "B222",
+									"tags": [
+										"Military"
+									],
+									"specialization": "Space",
+									"difficulty": "iq/h",
+									"defaults": [
+										{
+											"type": "iq",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Intelligence Analysis",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Tactics",
+											"modifier": -6
+										},
+										{
+											"type": "skill",
+											"name": "Strategy",
+											"modifier": -4
+										}
+									],
+									"points": 4
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": "SuuFL08IqEZLiazBv",
+					"name": "Ranger",
+					"children": [
+						{
+							"id": "sD6t2JoTpbSsHIpXa",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sKtd60c-jdtMDfOIt"
+							},
+							"name": "Camouflage",
+							"reference": "B183",
+							"local_notes": "Add to existing skill",
+							"tags": [
+								"Exploration",
+								"Military",
+								"Outdoor"
+							],
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Survival",
+									"modifier": -2
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "sA_R0RjelitqW2Jrp",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sUOQKAH8IaMhpxk1o"
+							},
+							"name": "Electronics Operation",
+							"reference": "B189",
+							"tags": [
+								"Technical"
+							],
+							"specialization": "@Electronics type@",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Operation",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Electronics Repair",
+									"specialization": "@Electronics type@",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Engineer",
+									"specialization": "Electronics",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "s198OTzu-yjDBd0dD",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "slL5EpCi-j8R3dv5U"
+							},
+							"name": "Forward Observer",
+							"reference": "B196",
+							"tags": [
+								"Military"
+							],
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Artillery",
+									"modifier": -5
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "so6k3OgzIJTNgcDgy",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "snZtm1wwlLIeerPuO"
+							},
+							"name": "Gunner",
+							"reference": "B198",
+							"tags": [
+								"Combat",
+								"Ranged Combat",
+								"Weapon"
+							],
+							"specialization": "@Gun class@",
+							"difficulty": "dx/e",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Gunner",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 2
+						},
+						{
+							"id": "sv5LaLI73sFVp9kxt",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s9b5e-6c-ljOeUtt5"
+							},
+							"name": "Hiking",
+							"reference": "B200",
+							"local_notes": "Add to existing skill",
+							"tags": [
+								"Athletic",
+								"Exploration",
+								"Outdoor"
+							],
+							"difficulty": "ht/a",
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -5
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "sQ3RxdvmoP-BJH9F7",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "so2Ldnofc7ZvAhwh_"
+							},
+							"name": "Navigation",
+							"reference": "B211",
+							"tags": [
+								"Exploration",
+								"Outdoor",
+								"Technical",
+								"Vehicle"
+							],
+							"specialization": "Land",
+							"difficulty": "iq/a",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Cartography",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Mathematics",
+									"specialization": "Surveying",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Air",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Sea",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Navigation",
+									"specialization": "Underground",
+									"modifier": -2
+								}
+							],
+							"tech_level": "",
+							"points": 4
+						},
+						{
+							"id": "smMBf0OyExR50FLVj",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "svEm7OyeCu_9wJ8Kk"
+							},
+							"name": "Stealth",
+							"reference": "B222",
+							"tags": [
+								"Criminal",
+								"Police",
+								"Spy",
+								"Street"
+							],
+							"difficulty": "dx/a",
+							"encumbrance_penalty_multiplier": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							],
+							"points": 2
+						},
+						{
+							"id": "sKqvO1hFTnK1c1g3Q",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sx3TN2kRYgqo5AGcp"
+							},
+							"name": "Survival",
+							"reference": "B223",
+							"tags": [
+								"Exploration",
+								"Outdoor"
+							],
+							"specialization": "@Any Environment@",
+							"difficulty": "per/a",
+							"defaults": [
+								{
+									"type": "per",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -3
+								}
+							],
+							"points": 4
+						}
+					]
+				},
+				{
+					"id": "SRCcdRf2bFAQysy9z",
+					"name": "Space Trooper",
+					"local_notes": "Campaign specific",
+					"children": [
+						{
+							"id": "slFW5iWCT11-MQ8sb",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s7kVwKFERTuMYO3O8"
+							},
+							"name": "Free Fall",
+							"reference": "B197",
+							"tags": [
+								"Athletic"
+							],
+							"difficulty": "dx/a",
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -5
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							],
+							"points": 8
+						},
+						{
+							"id": "swL8seUi_oOcMyIkI",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "s9IHT34mK8yfSB7d_"
+							},
+							"name": "Spacer",
+							"reference": "B185",
+							"tags": [
+								"Vehicle"
+							],
+							"difficulty": "iq/e",
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								}
+							],
+							"tech_level": "",
+							"points": 4
+						},
+						{
+							"id": "sEBRsae-od_tMnRE7",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Basic Set/Basic Set Skills.skl",
+								"id": "sAmDzPjf0rKZ6I5G1"
+							},
+							"name": "Vacc Suit",
+							"reference": "B192",
+							"tags": [
+								"Technical"
+							],
+							"difficulty": "dx/a",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Diving Suit",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "NBC Suit",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Battlesuit",
+									"modifier": -2
+								}
+							],
+							"tech_level": "",
+							"points": 8
+						}
+					]
+				}
+			]
+		}
+	],
+	"notes": [
+		{
+			"id": "nFVlasj9i7J4SSTy5",
+			"markdown": "Soldiers are trained fighters, disciplined enforcers, hardened mercenaries, and professional warriors who survive violence through skill, courage, and relentless conditioning. Some are loyal patriots defending a nation or cause; others are corporate security contractors, pirate raiders, rebel fighters, gang enforcers, or wandering mercenaries selling their talents to the highest bidder. In a cyberpunk city they might serve as militarized police, tactical response teams, or augmented street soldiers. In a space opera they may fight aboard warships, defend frontier colonies, or deploy onto alien worlds under fire. Whatever their allegiance, Soldiers are defined by training, aggression, and the ability to function under deadly pressure.\n\nA Soldier’s primary role is surviving and prevailing in violent conflict, but a good Soldier is far more than someone who can shoot straight. Many Soldiers also serve as scouts, vehicle crews, engineers, commanders, security specialists, bodyguards, peacekeepers, or survival experts, developing expertise in tactics, reconnaissance, leadership, navigation, communications, demolitions, heavy weapons, or hostile-environment operations. Even away from the battlefield, you remain useful through discipline, situational awareness, intimidation, logistics, operational planning, and the ability to function calmly in chaotic or life-threatening situations. Whether you are a hardened infantry veteran, a disciplined officer, a mechanized cavalryman, a stealthy reconnaissance operative, or a power-armored assault trooper, the group depends on you whenever violence becomes unavoidable.\n\nSoldiers vary enormously depending on their training, battlefield role, and the needs of the campaign. Before selecting a package, make sure it fits the GM’s setting assumptions, available technology, and the intended style of play.\n\n*Armored Troopers* are tank crews, mechanized infantry, grav-vehicle operators, convoy escorts, cavalry equivalents, and walker pilots who dominate battlefields through mobility and overwhelming firepower. Whether operating tanks, mecha, armored cars, hovercraft, or gunships, Armored Troopers bring devastating force wherever they deploy. They emphasize Driving or Piloting, Gunner, Artillery, Navigation, Mechanic, and Forward Observer, backed by traits such as Combat Reflexes, Daredevil, Born Soldier, Born Tactician, High Pain Threshold, and Fearlessness. Their disadvantages frequently reflect the bravado and fatalism associated with mechanized warfare, including Overconfidence, Compulsive Gambling, Lecherousness, Trickster, Bad Temper, or Compulsive Carousing.\n\n*Battlesuit Troopers* are elite power-armored infantry trained to operate advanced combat exoskeletons, mechanized assault frames, or sealed tactical armor systems. Depending on the setting, Battlesuit Troopers may be elite commandos, corporate supersoldiers, knightly heavy infantry, or disposable mass-produced shock troops sealed inside walking tanks. Battlesuit Troopers excel at boarding actions, heavy assaults, hazardous-environment warfare, shock attacks, and fighting in conditions that would kill ordinary troops outright. They emphasize Battlesuit, Electronics Operation, Navigation, Mechanic, Gunner, and Forward Observer, supported by traits such as Combat Reflexes, High Pain Threshold, Fearlessness, Fit, and Born Soldier. The physical and psychological strain of operating advanced combat armor often contributes to disadvantages such as Overconfidence, Bloodlust, Berserk, Workaholic, Flashbacks, or Trickster.\n\n*Combat Engineers* are sappers, breachers, demolitions experts, military technicians, drone warfare specialists, and battlefield problem-solvers who keep armies functioning under impossible conditions. Some are meticulous professionals; others are reckless combat scientists who treat battlefields like engineering experiments. Combat Engineers excel at fortifications, sabotage, demolitions, field repairs, siege operations, drone support, and overcoming obstacles that brute force alone cannot solve. They emphasize Engineer (Combat), Explosives, Electronics Operation, Mathematics, Navigation, Gunner, and technical support skills, supported by traits such as Gizmo, Common Sense, Single-Minded, Intuition, and Born Tactician. Their disadvantages often stem from obsession, technical curiosity, or professional detachment, including Curious, Miserliness, Obsession, Workaholic, Truthfulness, or Callous.\n\n*Infantry* are line troops, marines, riot police, gang enforcers, mercenaries, and shock troopers who form the backbone of organized combat forces. Some become disciplined professionals devoted to protecting their comrades, while others harden into brutal killers shaped entirely by war. Infantry excel at direct combat, defensive operations, room-clearing, urban warfare, and holding territory under pressure. They emphasize Beam Weapons or Guns, Gunner, Survival, Urban Survival, Navigation, Hiking, and Forward Observer, supported by traits such as Combat Reflexes, Fearlessness, Fit, High Pain Threshold, and Born Soldier. Their disadvantages often reflect aggression, exhaustion, or battlefield conditioning, including Bad Temper, Bloodlust, Berserk, Bully, Callous, Overconfidence, or Sense of Duty.\n\n*Officers* are commanders, tacticians, military aristocrats, pirate captains, political officers, squad leaders, and warlords responsible for coordinating troops and making strategic decisions under pressure. A good Officer turns frightened, exhausted people into an organized fighting force; a bad one gets them killed. Officers excel at command, morale, logistics, planning, negotiation, and keeping soldiers functioning in the middle of chaos. They emphasize Leadership, Tactics, Administration, Diplomacy, Law (Military), Strategy, and Public Speaking, supported by traits such as Charisma, Born War-Leader, Born Tactician, Cultural Adaptability, Intuition, and Unfazeable. The burden of authority and ideology often creates disadvantages such as Sense of Duty, Honesty, Fanaticism, Jealousy, Selfless, or Code of Honor (Soldier’s).\n\n*Rangers* are scouts, reconnaissance troops, commandos, insurgents, resistance fighters, and wilderness patrol specialists who operate beyond conventional front lines. Rangers survive where maps fail, supply lines collapse, and ordinary troops refuse to go. Rangers excel at infiltration, ambushes, reconnaissance, long-range patrols, and independent operations far from support. They emphasize Camouflage, Stealth, Survival, Navigation, Electronics Operation, Hiking, and Forward Observer, often combined with Beam Weapons or Guns, supported by traits such as Absolute Direction, Danger Sense, Intuition, Night Vision, Rapid Healing, and Fearlessness. The isolation and stress of their profession often lead to disadvantages such as Loner, Nightmares, Flashbacks, Fanaticism, Stubbornness, Workaholic, or Xenophobia.\n\n*Space Troopers* are vacuum-trained soldiers specializing in orbital warfare, boarding operations, and combat in hostile extraterrestrial environments. Whether serving aboard naval warships, corporate security fleets, pirate raiders, or orbital marine corps, Space Troopers fight in places where a single mistake can kill everyone nearby. Space Troopers excel at boarding enemy vessels, defending stations and spacecraft, surviving hostile environments, and conducting military operations where atmosphere, gravity, and terrain cannot be trusted. They emphasize Free Fall, Spacer, Vacc Suit, Navigation, and survival skills needed for zero-gravity and deep-space deployment, supported by traits such as Absolute Direction, Danger Sense, Fearlessness, G-Experience, and Born Spacer. The isolation and psychological stress of space warfare often lead to disadvantages such as Flashbacks, Nightmares, Xenophobia, Workaholic, Loner, or Fanaticism."
+		}
+	]
+}
